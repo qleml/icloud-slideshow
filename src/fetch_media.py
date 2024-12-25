@@ -12,11 +12,11 @@ from PIL import Image, UnidentifiedImageError
 
 # Parse command-line arguments
 parser = argparse.ArgumentParser(description="Sync iCloud photos and maintain storage limits.")
-parser.add_argument("project_dir", type=str, help="The project directory path.")
+parser.add_argument("ICLOUD_SLIDESHOW_DIR", type=str, help="The project directory path.")
 args = parser.parse_args()
 
-PROJECT_DIR = Path(args.project_dir).resolve()
-CONFIG_PATH = PROJECT_DIR / "config/config.yaml"
+ICLOUD_SLIDESHOW_DIR = Path(args.ICLOUD_SLIDESHOW_DIR).resolve()
+CONFIG_PATH = ICLOUD_SLIDESHOW_DIR / "config/config.yaml"
 
 # Load configuration from config.yaml
 with open(CONFIG_PATH, "r") as config_file:
@@ -25,12 +25,12 @@ with open(CONFIG_PATH, "r") as config_file:
 USER_NAME = config.get("USER_NAME", "clemens.christoph@hotmail.com")
 ALBUM_NAME = config.get("ALBUM_NAME", "All Photos")
 PHOTOS_ONLY = config.get("PHOTOS_ONLY", True)
-SAVE_FOLDER = Path(PROJECT_DIR, config.get("SAVE_FOLDER", "media")).resolve()
-ROTATED_FOLDER = Path(PROJECT_DIR, config.get("ROTATED_FOLDER", "media-rotated")).resolve()
+SAVE_FOLDER = Path(ICLOUD_SLIDESHOW_DIR, config.get("SAVE_FOLDER", "media")).resolve()
+ROTATED_FOLDER = Path(ICLOUD_SLIDESHOW_DIR, config.get("ROTATED_FOLDER", "media-rotated")).resolve()
 RECENT_PHOTOS = config.get("RECENT_PHOTOS", 50)
 MAX_MEDIA_STORED = config.get("MAX_MEDIA_STORED", 1000)
 MAX_MEDIA_SIZE_GB = config.get("MAX_MEDIA_SIZE_GB", 10)
-LOG_FILE_PATH = Path(PROJECT_DIR, "log", "fetch_media.log").resolve()
+LOG_FILE_PATH = Path(ICLOUD_SLIDESHOW_DIR, "log", "fetch_media.log").resolve()
 ROTATE_IMAGES = config.get("ROTATE_IMAGES", False)
 
 SAVE_FOLDER.mkdir(parents=True, exist_ok=True)
@@ -52,7 +52,7 @@ logger.setLevel(logging.INFO)
 
 logger.info(f"*"*50)
 
-logger.info("Proejct directory: " + str(PROJECT_DIR))
+logger.info("Proejct directory: " + str(ICLOUD_SLIDESHOW_DIR))
 logger.info("Logging to file: " + str(LOG_FILE_PATH))
 
 logger.info(f"USER_NAME: {USER_NAME}")

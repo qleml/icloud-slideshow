@@ -7,7 +7,7 @@ if [ -z "$1" ]; then
 fi
 
 DIRECTORY_TO_PUSH=$1
-PROJECT_DIR=/home/ccc/dev/photo-stream/
+ICLOUD_SLIDESHOW_DIR=/home/ccc/dev/photo-stream/
 
 # Start the SSH agent and add the SSH key
 echo "Starting SSH agent..."
@@ -17,7 +17,7 @@ ssh-add ~/.ssh/github
 
 # Navigate to the project directory
 echo "Navigating to project directory..."
-cd $PROJECT_DIR
+cd $ICLOUD_SLIDESHOW_DIR
 
 
 # Add the files in the specified directory to the staging area
