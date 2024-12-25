@@ -172,4 +172,4 @@ cython_debug/
 # media downloaded from icloud
 media/
 media-temp/
-log/*
+log/

@@ -18,11 +18,11 @@ fi
 read -p "Enter your Apple ID email: " APPLE_ID
 
 # Run icloudpd to authenticate
-icloudpd --username "$APPLE_ID" --authenticate-only
+icloudpd --username "$APPLE_ID" --auth-only
 
 # Check if the authentication was successful
 if [ $? -eq 0 ]; then
-    echo "Authentication successful. Please complete the 2FA prompts."
+    echo "Authentication successful."
 else
     echo "Authentication failed. Please try again."
     exit 1

@@ -1,7 +1,5 @@
-USER_NAME: "YOUR_APPLE_ID_EMAIL"
+USER_NAME: "clemens.christoph@hotmail.com"
 ALBUM_NAME: "All Photos"      
-TEMP_FOLDER: "media-temp" 
-MEDIA_FOLDER: "media" 
-RECENT_PHOTOS: 200              
-MAX_MEDIA_STORED: 500            
+RECENT_PHOTOS: 10              
+MAX_MEDIA_STORED: 10            
 MAX_MEDIA_SIZE_GB: 1     

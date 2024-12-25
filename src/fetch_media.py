@@ -1,14 +1,11 @@
 import yaml
 import subprocess
-import time
 import logging
 from logging.handlers import RotatingFileHandler
 import argparse
 from pathlib import Path
 import os
 import sys
-from PIL import Image, UnidentifiedImageError
-
 
 # Parse command-line arguments
 parser = argparse.ArgumentParser(description="Sync iCloud photos and maintain storage limits.")
@@ -25,8 +22,8 @@ with open(CONFIG_PATH, "r") as config_file:
 USER_NAME = config.get("USER_NAME", "clemens.christoph@hotmail.com")
 ALBUM_NAME = config.get("ALBUM_NAME", "All Photos")
 PHOTOS_ONLY = config.get("PHOTOS_ONLY", True)
-TEMP_FOLDER = Path(ICLOUD_SLIDESHOW_PATH, config.get("TEMP_FOLDER", "media")).resolve()
-MEDIA_FOLDER = Path(ICLOUD_SLIDESHOW_PATH, config.get("MEDIA_FOLDER", "media-rotated")).resolve()
+TEMP_FOLDER = Path(ICLOUD_SLIDESHOW_PATH, config.get("TEMP_FOLDER", "media-temp")).resolve()
+MEDIA_FOLDER = Path(ICLOUD_SLIDESHOW_PATH, config.get("MEDIA_FOLDER", "media")).resolve()
 RECENT_PHOTOS = config.get("RECENT_PHOTOS", 50)
 MAX_MEDIA_STORED = config.get("MAX_MEDIA_STORED", 1000)
 MAX_MEDIA_SIZE_GB = config.get("MAX_MEDIA_SIZE_GB", 10)
