@@ -5,4 +5,3 @@ MEDIA_FOLDER: "media"
 RECENT_PHOTOS: 200              
 MAX_MEDIA_STORED: 500            
 MAX_MEDIA_SIZE_GB: 1     
-SLIDESHOW_INTERVAL: 7     
