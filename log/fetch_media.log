@@ -1,0 +1,2309 @@
+2024-12-24 13:57:01,725 - INFO - **************************************************
+2024-12-24 13:57:01,726 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 13:57:01,727 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 13:57:01,727 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 13:57:01,727 - INFO - ALBUM_NAME: All Photos
+2024-12-24 13:57:01,728 - INFO - PHOTOS_ONLY: True
+2024-12-24 13:57:01,728 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 13:57:01,728 - INFO - RECENT_PHOTOS: 20
+2024-12-24 13:57:01,728 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 13:57:01,729 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 13:57:01,729 - INFO - Starting iCloud photo sync...
+2024-12-24 13:57:01,731 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 13:57:01,732 - INFO - Current media count: 18
+2024-12-24 13:57:01,734 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 13:57:01,736 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 13:57:01,737 - INFO - Maintained storage limits
+2024-12-24 13:57:12,480 - INFO - iCloud sync completed successfully. 
+2024-12-24 13:57:12,481 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 13:57:12,482 - INFO - Current media count: 18
+2024-12-24 13:57:12,483 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 13:57:12,485 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 13:57:12,485 - INFO - Maintained storage limits
+2024-12-24 13:57:12,486 - INFO - Finished this media fetch
+2024-12-24 13:57:12,486 - INFO - **************************************************
+2024-12-24 13:57:12,486 - INFO - 
+2024-12-24 14:40:02,486 - INFO - **************************************************
+2024-12-24 14:40:02,486 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 14:40:02,487 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 14:40:02,487 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 14:40:02,488 - INFO - ALBUM_NAME: FAIL
+2024-12-24 14:40:02,488 - INFO - PHOTOS_ONLY: True
+2024-12-24 14:40:02,488 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 14:40:02,488 - INFO - RECENT_PHOTOS: 20
+2024-12-24 14:40:02,489 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 14:40:02,489 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 14:40:02,489 - INFO - Starting iCloud photo sync...
+2024-12-24 14:40:02,491 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:40:02,491 - INFO - Current media count: 18
+2024-12-24 14:40:02,493 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:40:02,495 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:40:02,496 - INFO - Maintained storage limits
+2024-12-24 14:40:10,588 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[19354] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 14:40:10,589 - ERROR - Album not detected: : 'FAIL'
+[19354] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 14:40:10,591 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:40:10,591 - INFO - Current media count: 18
+2024-12-24 14:40:10,593 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:40:10,594 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:40:10,595 - INFO - Maintained storage limits
+2024-12-24 14:40:10,595 - INFO - Finished this media fetch
+2024-12-24 14:40:10,595 - INFO - **************************************************
+2024-12-24 14:40:10,595 - INFO - 
+2024-12-24 14:40:15,754 - INFO - **************************************************
+2024-12-24 14:40:15,755 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 14:40:15,755 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 14:40:15,755 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 14:40:15,755 - INFO - ALBUM_NAME: FAIL
+2024-12-24 14:40:15,756 - INFO - PHOTOS_ONLY: True
+2024-12-24 14:40:15,756 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 14:40:15,756 - INFO - RECENT_PHOTOS: 20
+2024-12-24 14:40:15,756 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 14:40:15,757 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 14:40:15,757 - INFO - Starting iCloud photo sync...
+2024-12-24 14:40:15,758 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:40:15,759 - INFO - Current media count: 18
+2024-12-24 14:40:15,761 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:40:15,762 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:40:15,763 - INFO - Maintained storage limits
+2024-12-24 14:40:23,611 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[19414] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 14:40:23,612 - ERROR - Album not detected: : 'FAIL'
+[19414] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 14:40:23,614 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:40:23,615 - INFO - Current media count: 18
+2024-12-24 14:40:23,618 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:40:23,622 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:40:23,622 - INFO - Maintained storage limits
+2024-12-24 14:40:23,623 - INFO - Finished this media fetch
+2024-12-24 14:40:23,624 - INFO - **************************************************
+2024-12-24 14:40:23,624 - INFO - 
+2024-12-24 14:41:02,284 - INFO - **************************************************
+2024-12-24 14:41:02,285 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 14:41:02,285 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 14:41:02,286 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 14:41:02,286 - INFO - ALBUM_NAME: FAIL
+2024-12-24 14:41:02,286 - INFO - PHOTOS_ONLY: True
+2024-12-24 14:41:02,287 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 14:41:02,287 - INFO - RECENT_PHOTOS: 20
+2024-12-24 14:41:02,287 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 14:41:02,287 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 14:41:02,288 - INFO - Starting iCloud photo sync...
+2024-12-24 14:41:02,289 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:41:02,290 - INFO - Current media count: 18
+2024-12-24 14:41:02,292 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:41:02,294 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:41:02,294 - INFO - Maintained storage limits
+2024-12-24 14:41:10,120 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[19544] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 14:41:10,120 - ERROR - Album not detected: : 'FAIL'
+[19544] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 14:41:10,122 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:41:10,123 - INFO - Current media count: 18
+2024-12-24 14:41:10,125 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:41:10,128 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:41:10,129 - INFO - Maintained storage limits
+2024-12-24 14:41:10,129 - INFO - Finished this media fetch
+2024-12-24 14:41:10,130 - INFO - **************************************************
+2024-12-24 14:41:10,130 - INFO - 
+2024-12-24 14:42:01,809 - INFO - **************************************************
+2024-12-24 14:42:01,810 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 14:42:01,810 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 14:42:01,810 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 14:42:01,811 - INFO - ALBUM_NAME: FAIL
+2024-12-24 14:42:01,811 - INFO - PHOTOS_ONLY: True
+2024-12-24 14:42:01,811 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 14:42:01,811 - INFO - RECENT_PHOTOS: 20
+2024-12-24 14:42:01,812 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 14:42:01,812 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 14:42:01,812 - INFO - Starting iCloud photo sync...
+2024-12-24 14:42:01,814 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:42:01,814 - INFO - Current media count: 18
+2024-12-24 14:42:01,816 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:42:01,817 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:42:01,818 - INFO - Maintained storage limits
+2024-12-24 14:42:09,608 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[19585] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 14:42:09,608 - ERROR - Album not detected: : 'FAIL'
+[19585] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 14:42:09,610 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:42:09,611 - INFO - Current media count: 18
+2024-12-24 14:42:09,614 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:42:09,618 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:42:09,618 - INFO - Maintained storage limits
+2024-12-24 14:42:09,619 - INFO - Finished this media fetch
+2024-12-24 14:42:09,619 - INFO - **************************************************
+2024-12-24 14:42:09,620 - INFO - 
+2024-12-24 14:43:02,309 - INFO - **************************************************
+2024-12-24 14:43:02,310 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 14:43:02,311 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 14:43:02,311 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 14:43:02,311 - INFO - ALBUM_NAME: FAIL
+2024-12-24 14:43:02,312 - INFO - PHOTOS_ONLY: True
+2024-12-24 14:43:02,312 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 14:43:02,312 - INFO - RECENT_PHOTOS: 20
+2024-12-24 14:43:02,313 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 14:43:02,313 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 14:43:02,313 - INFO - Starting iCloud photo sync...
+2024-12-24 14:43:02,315 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:43:02,315 - INFO - Current media count: 18
+2024-12-24 14:43:02,317 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:43:02,319 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:43:02,319 - INFO - Maintained storage limits
+2024-12-24 14:43:10,049 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[19625] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 14:43:10,049 - ERROR - Album not detected: : 'FAIL'
+[19625] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 14:43:10,051 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:43:10,051 - INFO - Current media count: 18
+2024-12-24 14:43:10,053 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:43:10,056 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:43:10,056 - INFO - Maintained storage limits
+2024-12-24 14:43:10,057 - INFO - Finished this media fetch
+2024-12-24 14:43:10,057 - INFO - **************************************************
+2024-12-24 14:43:10,058 - INFO - 
+2024-12-24 14:44:01,731 - INFO - **************************************************
+2024-12-24 14:44:01,731 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 14:44:01,732 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 14:44:01,732 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 14:44:01,732 - INFO - ALBUM_NAME: FAIL
+2024-12-24 14:44:01,732 - INFO - PHOTOS_ONLY: True
+2024-12-24 14:44:01,733 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 14:44:01,733 - INFO - RECENT_PHOTOS: 20
+2024-12-24 14:44:01,733 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 14:44:01,733 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 14:44:01,734 - INFO - Starting iCloud photo sync...
+2024-12-24 14:44:01,735 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:44:01,736 - INFO - Current media count: 18
+2024-12-24 14:44:01,737 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:44:01,739 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:44:01,739 - INFO - Maintained storage limits
+2024-12-24 14:44:09,623 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[19660] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 14:44:09,624 - ERROR - Album not detected: : 'FAIL'
+[19660] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 14:44:09,625 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:44:09,626 - INFO - Current media count: 18
+2024-12-24 14:44:09,629 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:44:09,633 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:44:09,634 - INFO - Maintained storage limits
+2024-12-24 14:44:09,634 - INFO - Finished this media fetch
+2024-12-24 14:44:09,635 - INFO - **************************************************
+2024-12-24 14:44:09,636 - INFO - 
+2024-12-24 14:45:02,356 - INFO - **************************************************
+2024-12-24 14:45:02,356 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 14:45:02,356 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 14:45:02,357 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 14:45:02,357 - INFO - ALBUM_NAME: FAIL
+2024-12-24 14:45:02,357 - INFO - PHOTOS_ONLY: True
+2024-12-24 14:45:02,358 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 14:45:02,358 - INFO - RECENT_PHOTOS: 20
+2024-12-24 14:45:02,358 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 14:45:02,358 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 14:45:02,359 - INFO - Starting iCloud photo sync...
+2024-12-24 14:45:02,360 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:45:02,360 - INFO - Current media count: 18
+2024-12-24 14:45:02,362 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:45:02,364 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:45:02,364 - INFO - Maintained storage limits
+2024-12-24 14:45:10,302 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[19717] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 14:45:10,303 - ERROR - Album not detected: : 'FAIL'
+[19717] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 14:45:10,304 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:45:10,305 - INFO - Current media count: 18
+2024-12-24 14:45:10,307 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:45:10,310 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:45:10,310 - INFO - Maintained storage limits
+2024-12-24 14:45:10,310 - INFO - Finished this media fetch
+2024-12-24 14:45:10,311 - INFO - **************************************************
+2024-12-24 14:45:10,311 - INFO - 
+2024-12-24 14:45:51,706 - INFO - **************************************************
+2024-12-24 14:45:51,707 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 14:45:51,707 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 14:45:51,707 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 14:45:51,708 - INFO - ALBUM_NAME: FAIL
+2024-12-24 14:45:51,708 - INFO - PHOTOS_ONLY: True
+2024-12-24 14:45:51,708 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 14:45:51,708 - INFO - RECENT_PHOTOS: 20
+2024-12-24 14:45:51,709 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 14:45:51,709 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 14:45:51,709 - INFO - Starting iCloud photo sync...
+2024-12-24 14:45:51,711 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:45:51,711 - INFO - Current media count: 18
+2024-12-24 14:45:51,713 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:45:51,714 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:45:51,715 - INFO - Maintained storage limits
+2024-12-24 14:45:59,425 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[20066] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 14:45:59,426 - ERROR - Album not detected: : 'FAIL'
+[20066] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 14:46:02,027 - INFO - **************************************************
+2024-12-24 14:46:02,027 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 14:46:02,027 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 14:46:02,028 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 14:46:02,028 - INFO - ALBUM_NAME: FAIL
+2024-12-24 14:46:02,028 - INFO - PHOTOS_ONLY: True
+2024-12-24 14:46:02,028 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 14:46:02,029 - INFO - RECENT_PHOTOS: 20
+2024-12-24 14:46:02,029 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 14:46:02,029 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 14:46:02,029 - INFO - Starting iCloud photo sync...
+2024-12-24 14:46:02,031 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:46:02,031 - INFO - Current media count: 18
+2024-12-24 14:46:02,033 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:46:02,035 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:46:02,035 - INFO - Maintained storage limits
+2024-12-24 14:46:09,739 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[20170] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 14:46:09,739 - ERROR - Album not detected: : 'FAIL'
+[20170] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 14:47:02,333 - INFO - **************************************************
+2024-12-24 14:47:02,333 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 14:47:02,334 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 14:47:02,334 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 14:47:02,334 - INFO - ALBUM_NAME: FAIL
+2024-12-24 14:47:02,334 - INFO - PHOTOS_ONLY: True
+2024-12-24 14:47:02,335 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 14:47:02,335 - INFO - RECENT_PHOTOS: 20
+2024-12-24 14:47:02,335 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 14:47:02,335 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 14:47:02,336 - INFO - Starting iCloud photo sync...
+2024-12-24 14:47:02,337 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:47:02,338 - INFO - Current media count: 18
+2024-12-24 14:47:02,339 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:47:02,341 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:47:02,341 - INFO - Maintained storage limits
+2024-12-24 14:47:10,045 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[20296] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 14:47:10,046 - ERROR - Album not detected: : 'FAIL'
+[20296] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 14:48:01,622 - INFO - **************************************************
+2024-12-24 14:48:01,622 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 14:48:01,622 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 14:48:01,623 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 14:48:01,623 - INFO - ALBUM_NAME: FAIL
+2024-12-24 14:48:01,623 - INFO - PHOTOS_ONLY: True
+2024-12-24 14:48:01,623 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 14:48:01,624 - INFO - RECENT_PHOTOS: 20
+2024-12-24 14:48:01,624 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 14:48:01,624 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 14:48:01,624 - INFO - Starting iCloud photo sync...
+2024-12-24 14:48:01,626 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:48:01,626 - INFO - Current media count: 18
+2024-12-24 14:48:01,628 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:48:01,630 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:48:01,630 - INFO - Maintained storage limits
+2024-12-24 14:48:09,386 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[20374] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 14:48:09,386 - ERROR - Album not detected: : 'FAIL'
+[20374] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 14:49:02,034 - INFO - **************************************************
+2024-12-24 14:49:02,035 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 14:49:02,035 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 14:49:02,035 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 14:49:02,036 - INFO - ALBUM_NAME: FAIL
+2024-12-24 14:49:02,036 - INFO - PHOTOS_ONLY: True
+2024-12-24 14:49:02,036 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 14:49:02,036 - INFO - RECENT_PHOTOS: 20
+2024-12-24 14:49:02,036 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 14:49:02,037 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 14:49:02,037 - INFO - Starting iCloud photo sync...
+2024-12-24 14:49:02,039 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:49:02,039 - INFO - Current media count: 18
+2024-12-24 14:49:02,041 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:49:02,042 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:49:02,043 - INFO - Maintained storage limits
+2024-12-24 14:49:09,793 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[20443] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 14:49:09,794 - ERROR - Album not detected: : 'FAIL'
+[20443] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 14:50:02,460 - INFO - **************************************************
+2024-12-24 14:50:02,461 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 14:50:02,461 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 14:50:02,462 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 14:50:02,462 - INFO - ALBUM_NAME: FAIL
+2024-12-24 14:50:02,462 - INFO - PHOTOS_ONLY: True
+2024-12-24 14:50:02,462 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 14:50:02,463 - INFO - RECENT_PHOTOS: 20
+2024-12-24 14:50:02,463 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 14:50:02,463 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 14:50:02,463 - INFO - Starting iCloud photo sync...
+2024-12-24 14:50:02,465 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:50:02,465 - INFO - Current media count: 18
+2024-12-24 14:50:02,467 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:50:02,469 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:50:02,469 - INFO - Maintained storage limits
+2024-12-24 14:50:10,171 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[20526] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 14:50:10,172 - ERROR - Album not detected: : 'FAIL'
+[20526] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 14:51:01,864 - INFO - **************************************************
+2024-12-24 14:51:01,865 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 14:51:01,865 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 14:51:01,865 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 14:51:01,866 - INFO - ALBUM_NAME: FAIL
+2024-12-24 14:51:01,866 - INFO - PHOTOS_ONLY: True
+2024-12-24 14:51:01,866 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 14:51:01,866 - INFO - RECENT_PHOTOS: 20
+2024-12-24 14:51:01,866 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 14:51:01,867 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 14:51:01,867 - INFO - Starting iCloud photo sync...
+2024-12-24 14:51:01,869 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:51:01,869 - INFO - Current media count: 18
+2024-12-24 14:51:01,871 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:51:01,873 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:51:01,873 - INFO - Maintained storage limits
+2024-12-24 14:51:09,694 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[20618] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 14:51:09,694 - ERROR - Album not detected: : 'FAIL'
+[20618] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 14:52:02,353 - INFO - **************************************************
+2024-12-24 14:52:02,353 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 14:52:02,354 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 14:52:02,354 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 14:52:02,354 - INFO - ALBUM_NAME: FAIL
+2024-12-24 14:52:02,355 - INFO - PHOTOS_ONLY: True
+2024-12-24 14:52:02,355 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 14:52:02,355 - INFO - RECENT_PHOTOS: 20
+2024-12-24 14:52:02,355 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 14:52:02,355 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 14:52:02,356 - INFO - Starting iCloud photo sync...
+2024-12-24 14:52:02,357 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:52:02,358 - INFO - Current media count: 18
+2024-12-24 14:52:02,359 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:52:02,361 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:52:02,361 - INFO - Maintained storage limits
+2024-12-24 14:52:10,022 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[20715] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 14:52:10,023 - ERROR - Album not detected: : 'FAIL'
+[20715] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 14:53:01,647 - INFO - **************************************************
+2024-12-24 14:53:01,647 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 14:53:01,648 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 14:53:01,648 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 14:53:01,648 - INFO - ALBUM_NAME: FAIL
+2024-12-24 14:53:01,648 - INFO - PHOTOS_ONLY: True
+2024-12-24 14:53:01,649 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 14:53:01,649 - INFO - RECENT_PHOTOS: 20
+2024-12-24 14:53:01,649 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 14:53:01,649 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 14:53:01,650 - INFO - Starting iCloud photo sync...
+2024-12-24 14:53:01,651 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:53:01,651 - INFO - Current media count: 18
+2024-12-24 14:53:01,653 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:53:01,655 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:53:01,655 - INFO - Maintained storage limits
+2024-12-24 14:53:09,389 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[20798] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 14:53:09,389 - ERROR - Album not detected: : 'FAIL'
+[20798] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 14:54:02,317 - INFO - **************************************************
+2024-12-24 14:54:02,317 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 14:54:02,318 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 14:54:02,318 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 14:54:02,318 - INFO - ALBUM_NAME: FAIL
+2024-12-24 14:54:02,319 - INFO - PHOTOS_ONLY: True
+2024-12-24 14:54:02,319 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 14:54:02,319 - INFO - RECENT_PHOTOS: 20
+2024-12-24 14:54:02,319 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 14:54:02,320 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 14:54:02,320 - INFO - Starting iCloud photo sync...
+2024-12-24 14:54:02,321 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:54:02,322 - INFO - Current media count: 18
+2024-12-24 14:54:02,323 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:54:02,325 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:54:02,325 - INFO - Maintained storage limits
+2024-12-24 14:54:10,038 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[20878] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 14:54:10,039 - ERROR - Album not detected: : 'FAIL'
+[20878] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 14:55:02,203 - INFO - **************************************************
+2024-12-24 14:55:02,203 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 14:55:02,204 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 14:55:02,204 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 14:55:02,204 - INFO - ALBUM_NAME: FAIL
+2024-12-24 14:55:02,204 - INFO - PHOTOS_ONLY: True
+2024-12-24 14:55:02,205 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 14:55:02,205 - INFO - RECENT_PHOTOS: 20
+2024-12-24 14:55:02,205 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 14:55:02,205 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 14:55:02,205 - INFO - Starting iCloud photo sync...
+2024-12-24 14:55:02,207 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:55:02,208 - INFO - Current media count: 18
+2024-12-24 14:55:02,210 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:55:02,212 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:55:02,213 - INFO - Maintained storage limits
+2024-12-24 14:55:10,113 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[20979] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 14:55:10,114 - ERROR - Album not detected: : 'FAIL'
+[20979] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 14:56:01,664 - INFO - **************************************************
+2024-12-24 14:56:01,664 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 14:56:01,665 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 14:56:01,665 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 14:56:01,666 - INFO - ALBUM_NAME: FAIL
+2024-12-24 14:56:01,666 - INFO - PHOTOS_ONLY: True
+2024-12-24 14:56:01,666 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 14:56:01,666 - INFO - RECENT_PHOTOS: 20
+2024-12-24 14:56:01,667 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 14:56:01,667 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 14:56:01,668 - INFO - Starting iCloud photo sync...
+2024-12-24 14:56:01,670 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:56:01,670 - INFO - Current media count: 18
+2024-12-24 14:56:01,672 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:56:01,675 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:56:01,675 - INFO - Maintained storage limits
+2024-12-24 14:56:09,535 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[21042] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 14:56:09,536 - ERROR - Album not detected: : 'FAIL'
+[21042] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 14:57:02,087 - INFO - **************************************************
+2024-12-24 14:57:02,087 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 14:57:02,087 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 14:57:02,088 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 14:57:02,088 - INFO - ALBUM_NAME: FAIL
+2024-12-24 14:57:02,088 - INFO - PHOTOS_ONLY: True
+2024-12-24 14:57:02,089 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 14:57:02,089 - INFO - RECENT_PHOTOS: 20
+2024-12-24 14:57:02,089 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 14:57:02,089 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 14:57:02,089 - INFO - Starting iCloud photo sync...
+2024-12-24 14:57:02,091 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:57:02,091 - INFO - Current media count: 18
+2024-12-24 14:57:02,093 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:57:02,095 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:57:02,095 - INFO - Maintained storage limits
+2024-12-24 14:57:09,852 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[21162] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 14:57:09,853 - ERROR - Album not detected: : 'FAIL'
+[21162] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 14:58:02,453 - INFO - **************************************************
+2024-12-24 14:58:02,454 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 14:58:02,454 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 14:58:02,454 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 14:58:02,455 - INFO - ALBUM_NAME: FAIL
+2024-12-24 14:58:02,455 - INFO - PHOTOS_ONLY: True
+2024-12-24 14:58:02,455 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 14:58:02,455 - INFO - RECENT_PHOTOS: 20
+2024-12-24 14:58:02,456 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 14:58:02,456 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 14:58:02,456 - INFO - Starting iCloud photo sync...
+2024-12-24 14:58:02,458 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:58:02,458 - INFO - Current media count: 18
+2024-12-24 14:58:02,460 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:58:02,461 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:58:02,462 - INFO - Maintained storage limits
+2024-12-24 14:58:10,418 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[21265] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 14:58:10,418 - ERROR - Album not detected: : 'FAIL'
+[21265] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 14:59:02,037 - INFO - **************************************************
+2024-12-24 14:59:02,037 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 14:59:02,038 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 14:59:02,038 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 14:59:02,038 - INFO - ALBUM_NAME: FAIL
+2024-12-24 14:59:02,038 - INFO - PHOTOS_ONLY: True
+2024-12-24 14:59:02,039 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 14:59:02,039 - INFO - RECENT_PHOTOS: 20
+2024-12-24 14:59:02,039 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 14:59:02,039 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 14:59:02,040 - INFO - Starting iCloud photo sync...
+2024-12-24 14:59:02,041 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 14:59:02,041 - INFO - Current media count: 18
+2024-12-24 14:59:02,043 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 14:59:02,045 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 14:59:02,045 - INFO - Maintained storage limits
+2024-12-24 14:59:09,775 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[21490] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 14:59:09,775 - ERROR - Album not detected: : 'FAIL'
+[21490] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 15:00:02,482 - INFO - **************************************************
+2024-12-24 15:00:02,483 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 15:00:02,483 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 15:00:02,483 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 15:00:02,484 - INFO - ALBUM_NAME: FAIL
+2024-12-24 15:00:02,484 - INFO - PHOTOS_ONLY: True
+2024-12-24 15:00:02,484 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 15:00:02,484 - INFO - RECENT_PHOTOS: 20
+2024-12-24 15:00:02,485 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 15:00:02,485 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 15:00:02,485 - INFO - Starting iCloud photo sync...
+2024-12-24 15:00:02,487 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:00:02,487 - INFO - Current media count: 18
+2024-12-24 15:00:02,489 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:00:02,491 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 15:00:02,491 - INFO - Maintained storage limits
+2024-12-24 15:00:10,280 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[21553] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 15:00:10,281 - ERROR - Album not detected: : 'FAIL'
+[21553] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 15:01:01,847 - INFO - **************************************************
+2024-12-24 15:01:01,848 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 15:01:01,848 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 15:01:01,848 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 15:01:01,848 - INFO - ALBUM_NAME: FAIL
+2024-12-24 15:01:01,849 - INFO - PHOTOS_ONLY: True
+2024-12-24 15:01:01,849 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 15:01:01,849 - INFO - RECENT_PHOTOS: 20
+2024-12-24 15:01:01,849 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 15:01:01,850 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 15:01:01,850 - INFO - Starting iCloud photo sync...
+2024-12-24 15:01:01,851 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:01:01,852 - INFO - Current media count: 18
+2024-12-24 15:01:01,854 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:01:01,855 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 15:01:01,856 - INFO - Maintained storage limits
+2024-12-24 15:01:09,601 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[21592] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 15:01:09,601 - ERROR - Album not detected: : 'FAIL'
+[21592] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 15:02:02,373 - INFO - **************************************************
+2024-12-24 15:02:02,374 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 15:02:02,374 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 15:02:02,375 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 15:02:02,375 - INFO - ALBUM_NAME: FAIL
+2024-12-24 15:02:02,375 - INFO - PHOTOS_ONLY: True
+2024-12-24 15:02:02,376 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 15:02:02,376 - INFO - RECENT_PHOTOS: 20
+2024-12-24 15:02:02,377 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 15:02:02,377 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 15:02:02,377 - INFO - Starting iCloud photo sync...
+2024-12-24 15:02:02,380 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:02:02,380 - INFO - Current media count: 18
+2024-12-24 15:02:02,382 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:02:02,385 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 15:02:02,385 - INFO - Maintained storage limits
+2024-12-24 15:02:10,326 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[21797] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 15:02:10,326 - ERROR - Album not detected: : 'FAIL'
+[21797] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 15:03:01,946 - INFO - **************************************************
+2024-12-24 15:03:01,946 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 15:03:01,947 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 15:03:01,947 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 15:03:01,948 - INFO - ALBUM_NAME: FAIL
+2024-12-24 15:03:01,948 - INFO - PHOTOS_ONLY: True
+2024-12-24 15:03:01,948 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 15:03:01,949 - INFO - RECENT_PHOTOS: 20
+2024-12-24 15:03:01,949 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 15:03:01,949 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 15:03:01,949 - INFO - Starting iCloud photo sync...
+2024-12-24 15:03:01,951 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:03:01,951 - INFO - Current media count: 18
+2024-12-24 15:03:01,953 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:03:01,955 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 15:03:01,956 - INFO - Maintained storage limits
+2024-12-24 15:03:09,422 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[21899] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 15:03:09,422 - ERROR - Album not detected: : 'FAIL'
+[21899] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 15:04:01,994 - INFO - **************************************************
+2024-12-24 15:04:01,995 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 15:04:01,995 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 15:04:01,995 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 15:04:01,996 - INFO - ALBUM_NAME: FAIL
+2024-12-24 15:04:01,996 - INFO - PHOTOS_ONLY: True
+2024-12-24 15:04:01,996 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 15:04:01,996 - INFO - RECENT_PHOTOS: 20
+2024-12-24 15:04:01,996 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 15:04:01,997 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 15:04:01,997 - INFO - Starting iCloud photo sync...
+2024-12-24 15:04:01,999 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:04:02,000 - INFO - Current media count: 18
+2024-12-24 15:04:02,002 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:04:02,005 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 15:04:02,005 - INFO - Maintained storage limits
+2024-12-24 15:04:09,571 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[22126] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 15:04:09,572 - ERROR - Album not detected: : 'FAIL'
+[22126] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 15:04:42,523 - INFO - **************************************************
+2024-12-24 15:04:42,523 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 15:04:42,524 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 15:04:42,524 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 15:04:42,524 - INFO - ALBUM_NAME: FAIL
+2024-12-24 15:04:42,524 - INFO - PHOTOS_ONLY: True
+2024-12-24 15:04:42,525 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 15:04:42,525 - INFO - RECENT_PHOTOS: 20
+2024-12-24 15:04:42,525 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 15:04:42,525 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 15:04:42,526 - INFO - Starting iCloud photo sync...
+2024-12-24 15:04:42,527 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:04:42,528 - INFO - Current media count: 18
+2024-12-24 15:04:42,529 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:04:42,531 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 15:04:42,531 - INFO - Maintained storage limits
+2024-12-24 15:04:50,443 - ERROR - Error in subprocess: Return code 1. Error output: Traceback (most recent call last):
+  File "starters/icloudpd.py", line 6, in <module>
+  File "click/core.py", line 1157, in __call__
+  File "click/core.py", line 1078, in main
+  File "click/core.py", line 1434, in invoke
+  File "click/core.py", line 783, in invoke
+  File "icloudpd/base.py", line 753, in main
+  File "icloudpd/base.py", line 1255, in core
+KeyError: 'FAIL'
+[22580] Failed to execute script 'icloudpd' due to unhandled exception!
+
+2024-12-24 15:04:50,443 - ERROR - Album not detected: : 'FAIL'
+[22580] Failed to execute script 'icloudpd' due to unhandled exception!
+2024-12-24 15:05:13,304 - INFO - **************************************************
+2024-12-24 15:05:13,304 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 15:05:13,305 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 15:05:13,305 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 15:05:13,305 - INFO - ALBUM_NAME: All Photos
+2024-12-24 15:05:13,305 - INFO - PHOTOS_ONLY: True
+2024-12-24 15:05:13,306 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 15:05:13,306 - INFO - RECENT_PHOTOS: 20
+2024-12-24 15:05:13,306 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 15:05:13,306 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 15:05:13,307 - INFO - Starting iCloud photo sync...
+2024-12-24 15:05:13,308 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:05:13,309 - INFO - Current media count: 18
+2024-12-24 15:05:13,310 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:05:13,312 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 15:05:13,312 - INFO - Maintained storage limits
+2024-12-24 15:05:24,829 - INFO - iCloud sync completed successfully. 
+2024-12-24 15:05:24,830 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:05:24,830 - INFO - Current media count: 18
+2024-12-24 15:05:24,832 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:05:24,834 - INFO - Current media size: 0.040606246329844 GB
+2024-12-24 15:05:24,834 - INFO - Maintained storage limits
+2024-12-24 15:05:24,834 - INFO - Finished this media fetch
+2024-12-24 15:05:24,835 - INFO - Deleted all files in /home/ccc/dev/photo-stream/media-rotated
+2024-12-24 15:05:24,838 - INFO - Moved all files from /home/ccc/dev/photo-stream/media to /home/ccc/dev/photo-stream/media-rotated
+2024-12-24 15:05:25,415 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8802.JPG by 180 degrees
+2024-12-24 15:05:26,808 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8801.PNG by 180 degrees
+2024-12-24 15:05:27,991 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8807.PNG by 180 degrees
+2024-12-24 15:05:28,319 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8815.JPG by 180 degrees
+2024-12-24 15:05:28,965 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8804.JPG by 180 degrees
+2024-12-24 15:05:29,318 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/BDF1777F-212E-47B3-9FD7-A92BF375B3F3.JPG by 180 degrees
+2024-12-24 15:05:29,674 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8805.JPG by 180 degrees
+2024-12-24 15:05:30,264 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8797.JPG by 180 degrees
+2024-12-24 15:05:30,867 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_81A7792F-5FB8-411C-B501-624AC89AAC5E.JPG by 180 degrees
+2024-12-24 15:05:31,243 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8809.JPG by 180 degrees
+2024-12-24 15:05:31,540 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8816.JPG by 180 degrees
+2024-12-24 15:05:31,823 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8817.JPG by 180 degrees
+2024-12-24 15:05:32,494 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8811.PNG by 180 degrees
+2024-12-24 15:05:32,825 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8808.JPG by 180 degrees
+2024-12-24 15:05:33,125 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8813.JPG by 180 degrees
+2024-12-24 15:05:33,408 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8814.JPG by 180 degrees
+2024-12-24 15:05:33,975 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8810.JPG by 180 degrees
+2024-12-24 15:05:34,618 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8803.JPG by 180 degrees
+2024-12-24 15:05:34,635 - INFO - Rotated and moved files
+2024-12-24 15:05:34,636 - INFO - **************************************************
+2024-12-24 15:05:34,636 - INFO - 
+2024-12-24 15:06:02,260 - INFO - **************************************************
+2024-12-24 15:06:02,260 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 15:06:02,260 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 15:06:02,261 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 15:06:02,261 - INFO - ALBUM_NAME: All Photos
+2024-12-24 15:06:02,261 - INFO - PHOTOS_ONLY: True
+2024-12-24 15:06:02,261 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 15:06:02,262 - INFO - RECENT_PHOTOS: 20
+2024-12-24 15:06:02,262 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 15:06:02,262 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 15:06:02,262 - INFO - Starting iCloud photo sync...
+2024-12-24 15:06:02,263 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:06:02,263 - INFO - Current media count: 0
+2024-12-24 15:06:02,264 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:06:02,265 - INFO - Current media size: 0.0 GB
+2024-12-24 15:06:02,265 - INFO - Maintained storage limits
+2024-12-24 15:06:36,989 - INFO - iCloud sync completed successfully. 
+2024-12-24 15:06:36,990 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:06:36,990 - INFO - Current media count: 17
+2024-12-24 15:06:36,992 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:06:36,994 - INFO - Current media size: 0.03810149058699608 GB
+2024-12-24 15:06:36,994 - INFO - Maintained storage limits
+2024-12-24 15:06:36,995 - INFO - Finished this media fetch
+2024-12-24 15:06:37,005 - INFO - Deleted all files in /home/ccc/dev/photo-stream/media-rotated
+2024-12-24 15:06:37,008 - INFO - Moved all files from /home/ccc/dev/photo-stream/media to /home/ccc/dev/photo-stream/media-rotated
+2024-12-24 15:06:37,557 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8802.JPG by 180 degrees
+2024-12-24 15:06:38,948 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8801.PNG by 180 degrees
+2024-12-24 15:06:40,106 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8807.PNG by 180 degrees
+2024-12-24 15:06:40,416 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8815.JPG by 180 degrees
+2024-12-24 15:06:41,031 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8804.JPG by 180 degrees
+2024-12-24 15:06:41,385 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/BDF1777F-212E-47B3-9FD7-A92BF375B3F3.JPG by 180 degrees
+2024-12-24 15:06:41,726 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8805.JPG by 180 degrees
+2024-12-24 15:06:42,293 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_81A7792F-5FB8-411C-B501-624AC89AAC5E.JPG by 180 degrees
+2024-12-24 15:06:42,649 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8809.JPG by 180 degrees
+2024-12-24 15:06:42,916 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8816.JPG by 180 degrees
+2024-12-24 15:06:43,253 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8817.JPG by 180 degrees
+2024-12-24 15:06:43,905 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8811.PNG by 180 degrees
+2024-12-24 15:06:44,217 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8808.JPG by 180 degrees
+2024-12-24 15:06:44,566 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8813.JPG by 180 degrees
+2024-12-24 15:06:44,910 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8814.JPG by 180 degrees
+2024-12-24 15:06:45,440 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8810.JPG by 180 degrees
+2024-12-24 15:06:46,069 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8803.JPG by 180 degrees
+2024-12-24 15:06:46,085 - INFO - Rotated and moved files
+2024-12-24 15:06:46,086 - INFO - **************************************************
+2024-12-24 15:06:46,086 - INFO - 
+2024-12-24 15:07:01,924 - INFO - **************************************************
+2024-12-24 15:07:01,925 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 15:07:01,925 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 15:07:01,925 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 15:07:01,925 - INFO - ALBUM_NAME: All Photos
+2024-12-24 15:07:01,926 - INFO - PHOTOS_ONLY: True
+2024-12-24 15:07:01,926 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 15:07:01,926 - INFO - RECENT_PHOTOS: 20
+2024-12-24 15:07:01,926 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 15:07:01,927 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 15:07:01,927 - INFO - Starting iCloud photo sync...
+2024-12-24 15:07:01,928 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:07:01,928 - INFO - Current media count: 0
+2024-12-24 15:07:01,928 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:07:01,929 - INFO - Current media size: 0.0 GB
+2024-12-24 15:07:01,929 - INFO - Maintained storage limits
+2024-12-24 15:07:36,339 - INFO - iCloud sync completed successfully. 
+2024-12-24 15:07:36,340 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:07:36,340 - INFO - Current media count: 17
+2024-12-24 15:07:36,342 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:07:36,344 - INFO - Current media size: 0.03810149058699608 GB
+2024-12-24 15:07:36,344 - INFO - Maintained storage limits
+2024-12-24 15:07:36,344 - INFO - Finished this media fetch
+2024-12-24 15:07:36,353 - INFO - Deleted all files in /home/ccc/dev/photo-stream/media-rotated
+2024-12-24 15:07:36,356 - INFO - Moved all files from /home/ccc/dev/photo-stream/media to /home/ccc/dev/photo-stream/media-rotated
+2024-12-24 15:07:36,903 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8802.JPG by 180 degrees
+2024-12-24 15:07:38,281 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8801.PNG by 180 degrees
+2024-12-24 15:07:39,429 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8807.PNG by 180 degrees
+2024-12-24 15:07:39,738 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8815.JPG by 180 degrees
+2024-12-24 15:07:40,352 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8804.JPG by 180 degrees
+2024-12-24 15:07:40,704 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/BDF1777F-212E-47B3-9FD7-A92BF375B3F3.JPG by 180 degrees
+2024-12-24 15:07:41,045 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8805.JPG by 180 degrees
+2024-12-24 15:07:41,623 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_81A7792F-5FB8-411C-B501-624AC89AAC5E.JPG by 180 degrees
+2024-12-24 15:07:41,984 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8809.JPG by 180 degrees
+2024-12-24 15:07:42,252 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8816.JPG by 180 degrees
+2024-12-24 15:07:42,591 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8817.JPG by 180 degrees
+2024-12-24 15:07:43,245 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8811.PNG by 180 degrees
+2024-12-24 15:07:43,562 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8808.JPG by 180 degrees
+2024-12-24 15:07:43,911 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8813.JPG by 180 degrees
+2024-12-24 15:07:44,254 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8814.JPG by 180 degrees
+2024-12-24 15:07:44,787 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8810.JPG by 180 degrees
+2024-12-24 15:07:45,425 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8803.JPG by 180 degrees
+2024-12-24 15:07:45,439 - INFO - Rotated and moved files
+2024-12-24 15:07:45,439 - INFO - **************************************************
+2024-12-24 15:07:45,440 - INFO - 
+2024-12-24 15:08:02,283 - INFO - **************************************************
+2024-12-24 15:08:02,283 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 15:08:02,283 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 15:08:02,284 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 15:08:02,284 - INFO - ALBUM_NAME: All Photos
+2024-12-24 15:08:02,284 - INFO - PHOTOS_ONLY: True
+2024-12-24 15:08:02,284 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 15:08:02,285 - INFO - RECENT_PHOTOS: 20
+2024-12-24 15:08:02,285 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 15:08:02,285 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 15:08:02,285 - INFO - Starting iCloud photo sync...
+2024-12-24 15:08:02,286 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:08:02,286 - INFO - Current media count: 0
+2024-12-24 15:08:02,287 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:08:02,287 - INFO - Current media size: 0.0 GB
+2024-12-24 15:08:02,288 - INFO - Maintained storage limits
+2024-12-24 15:08:34,924 - INFO - iCloud sync completed successfully. 
+2024-12-24 15:08:34,925 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:08:34,925 - INFO - Current media count: 17
+2024-12-24 15:08:34,927 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:08:34,929 - INFO - Current media size: 0.03810149058699608 GB
+2024-12-24 15:08:34,929 - INFO - Maintained storage limits
+2024-12-24 15:08:34,929 - INFO - Finished this media fetch
+2024-12-24 15:08:34,939 - INFO - Deleted all files in /home/ccc/dev/photo-stream/media-rotated
+2024-12-24 15:08:34,945 - INFO - Moved all files from /home/ccc/dev/photo-stream/media to /home/ccc/dev/photo-stream/media-rotated
+2024-12-24 15:08:35,562 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8802.JPG by 180 degrees
+2024-12-24 15:08:36,944 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8801.PNG by 180 degrees
+2024-12-24 15:08:38,204 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8807.PNG by 180 degrees
+2024-12-24 15:08:38,516 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8815.JPG by 180 degrees
+2024-12-24 15:08:39,177 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8804.JPG by 180 degrees
+2024-12-24 15:08:39,546 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/BDF1777F-212E-47B3-9FD7-A92BF375B3F3.JPG by 180 degrees
+2024-12-24 15:08:39,916 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8805.JPG by 180 degrees
+2024-12-24 15:08:40,611 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_81A7792F-5FB8-411C-B501-624AC89AAC5E.JPG by 180 degrees
+2024-12-24 15:08:41,046 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8809.JPG by 180 degrees
+2024-12-24 15:08:41,375 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8816.JPG by 180 degrees
+2024-12-24 15:08:41,784 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8817.JPG by 180 degrees
+2024-12-24 15:08:42,580 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8811.PNG by 180 degrees
+2024-12-24 15:08:42,971 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8808.JPG by 180 degrees
+2024-12-24 15:08:43,393 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8813.JPG by 180 degrees
+2024-12-24 15:08:43,811 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8814.JPG by 180 degrees
+2024-12-24 15:08:44,417 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8810.JPG by 180 degrees
+2024-12-24 15:08:45,137 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8803.JPG by 180 degrees
+2024-12-24 15:08:45,155 - INFO - Rotated and moved files
+2024-12-24 15:08:45,156 - INFO - **************************************************
+2024-12-24 15:08:45,156 - INFO - 
+2024-12-24 15:09:02,285 - INFO - **************************************************
+2024-12-24 15:09:02,285 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 15:09:02,285 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 15:09:02,286 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 15:09:02,286 - INFO - ALBUM_NAME: All Photos
+2024-12-24 15:09:02,286 - INFO - PHOTOS_ONLY: True
+2024-12-24 15:09:02,286 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 15:09:02,287 - INFO - RECENT_PHOTOS: 20
+2024-12-24 15:09:02,287 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 15:09:02,287 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 15:09:02,287 - INFO - Starting iCloud photo sync...
+2024-12-24 15:09:02,288 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:09:02,288 - INFO - Current media count: 0
+2024-12-24 15:09:02,289 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:09:02,289 - INFO - Current media size: 0.0 GB
+2024-12-24 15:09:02,290 - INFO - Maintained storage limits
+2024-12-24 15:09:38,476 - INFO - iCloud sync completed successfully. 
+2024-12-24 15:09:38,478 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:09:38,478 - INFO - Current media count: 17
+2024-12-24 15:09:38,480 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:09:38,481 - INFO - Current media size: 0.03810149058699608 GB
+2024-12-24 15:09:38,482 - INFO - Maintained storage limits
+2024-12-24 15:09:38,482 - INFO - Finished this media fetch
+2024-12-24 15:09:38,505 - INFO - Deleted all files in /home/ccc/dev/photo-stream/media-rotated
+2024-12-24 15:09:38,511 - INFO - Moved all files from /home/ccc/dev/photo-stream/media to /home/ccc/dev/photo-stream/media-rotated
+2024-12-24 15:09:39,168 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8802.JPG by 180 degrees
+2024-12-24 15:09:40,551 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8801.PNG by 180 degrees
+2024-12-24 15:09:41,714 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8807.PNG by 180 degrees
+2024-12-24 15:09:42,029 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8815.JPG by 180 degrees
+2024-12-24 15:09:42,664 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8804.JPG by 180 degrees
+2024-12-24 15:09:43,037 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/BDF1777F-212E-47B3-9FD7-A92BF375B3F3.JPG by 180 degrees
+2024-12-24 15:09:43,383 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8805.JPG by 180 degrees
+2024-12-24 15:09:43,963 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_81A7792F-5FB8-411C-B501-624AC89AAC5E.JPG by 180 degrees
+2024-12-24 15:09:44,316 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8809.JPG by 180 degrees
+2024-12-24 15:09:44,587 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8816.JPG by 180 degrees
+2024-12-24 15:09:44,931 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8817.JPG by 180 degrees
+2024-12-24 15:09:45,586 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8811.PNG by 180 degrees
+2024-12-24 15:09:45,903 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8808.JPG by 180 degrees
+2024-12-24 15:09:46,251 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8813.JPG by 180 degrees
+2024-12-24 15:09:46,598 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8814.JPG by 180 degrees
+2024-12-24 15:09:47,122 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8810.JPG by 180 degrees
+2024-12-24 15:09:47,753 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8803.JPG by 180 degrees
+2024-12-24 15:09:47,767 - INFO - Rotated and moved files
+2024-12-24 15:09:47,768 - INFO - **************************************************
+2024-12-24 15:09:47,768 - INFO - 
+2024-12-24 15:10:01,769 - INFO - **************************************************
+2024-12-24 15:10:01,770 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 15:10:01,770 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 15:10:01,770 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 15:10:01,771 - INFO - ALBUM_NAME: All Photos
+2024-12-24 15:10:01,771 - INFO - PHOTOS_ONLY: True
+2024-12-24 15:10:01,771 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 15:10:01,771 - INFO - RECENT_PHOTOS: 20
+2024-12-24 15:10:01,771 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 15:10:01,772 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 15:10:01,772 - INFO - Starting iCloud photo sync...
+2024-12-24 15:10:01,773 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:10:01,773 - INFO - Current media count: 0
+2024-12-24 15:10:01,773 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:10:01,774 - INFO - Current media size: 0.0 GB
+2024-12-24 15:10:01,774 - INFO - Maintained storage limits
+2024-12-24 15:10:55,750 - INFO - iCloud sync completed successfully. 
+2024-12-24 15:10:55,752 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:10:55,752 - INFO - Current media count: 17
+2024-12-24 15:10:55,754 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:10:55,755 - INFO - Current media size: 0.03810149058699608 GB
+2024-12-24 15:10:55,756 - INFO - Maintained storage limits
+2024-12-24 15:10:55,756 - INFO - Finished this media fetch
+2024-12-24 15:10:55,765 - INFO - Deleted all files in /home/ccc/dev/photo-stream/media-rotated
+2024-12-24 15:10:55,769 - INFO - Moved all files from /home/ccc/dev/photo-stream/media to /home/ccc/dev/photo-stream/media-rotated
+2024-12-24 15:10:56,365 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8802.JPG by 180 degrees
+2024-12-24 15:10:57,756 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8801.PNG by 180 degrees
+2024-12-24 15:10:58,927 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8807.PNG by 180 degrees
+2024-12-24 15:10:59,254 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8815.JPG by 180 degrees
+2024-12-24 15:10:59,886 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8804.JPG by 180 degrees
+2024-12-24 15:11:00,245 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/BDF1777F-212E-47B3-9FD7-A92BF375B3F3.JPG by 180 degrees
+2024-12-24 15:11:00,589 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8805.JPG by 180 degrees
+2024-12-24 15:11:01,159 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_81A7792F-5FB8-411C-B501-624AC89AAC5E.JPG by 180 degrees
+2024-12-24 15:11:01,538 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8809.JPG by 180 degrees
+2024-12-24 15:11:01,816 - INFO - **************************************************
+2024-12-24 15:11:01,816 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 15:11:01,816 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 15:11:01,817 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 15:11:01,817 - INFO - ALBUM_NAME: All Photos
+2024-12-24 15:11:01,817 - INFO - PHOTOS_ONLY: True
+2024-12-24 15:11:01,818 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 15:11:01,818 - INFO - RECENT_PHOTOS: 20
+2024-12-24 15:11:01,818 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 15:11:01,818 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 15:11:01,819 - INFO - Starting iCloud photo sync...
+2024-12-24 15:11:01,819 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:11:01,820 - INFO - Current media count: 0
+2024-12-24 15:11:01,820 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:11:01,821 - INFO - Current media size: 0.0 GB
+2024-12-24 15:11:01,821 - INFO - Maintained storage limits
+2024-12-24 15:11:01,824 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8816.JPG by 180 degrees
+2024-12-24 15:11:02,466 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8817.JPG by 180 degrees
+2024-12-24 15:11:03,278 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8811.PNG by 180 degrees
+2024-12-24 15:11:03,610 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8808.JPG by 180 degrees
+2024-12-24 15:11:03,972 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8813.JPG by 180 degrees
+2024-12-24 15:11:04,348 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8814.JPG by 180 degrees
+2024-12-24 15:11:04,916 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8810.JPG by 180 degrees
+2024-12-24 15:11:05,595 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8803.JPG by 180 degrees
+2024-12-24 15:11:05,608 - INFO - Rotated and moved files
+2024-12-24 15:11:05,608 - INFO - **************************************************
+2024-12-24 15:11:05,609 - INFO - 
+2024-12-24 15:12:02,375 - INFO - iCloud sync completed successfully. 
+2024-12-24 15:12:02,376 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:12:02,377 - INFO - Current media count: 17
+2024-12-24 15:12:02,379 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:12:02,381 - INFO - Current media size: 0.03810149058699608 GB
+2024-12-24 15:12:02,383 - INFO - Maintained storage limits
+2024-12-24 15:12:02,384 - INFO - Finished this media fetch
+2024-12-24 15:12:02,399 - INFO - Deleted all files in /home/ccc/dev/photo-stream/media-rotated
+2024-12-24 15:12:02,408 - INFO - Moved all files from /home/ccc/dev/photo-stream/media to /home/ccc/dev/photo-stream/media-rotated
+2024-12-24 15:12:02,612 - INFO - **************************************************
+2024-12-24 15:12:02,612 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 15:12:02,613 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 15:12:02,614 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 15:12:02,614 - INFO - ALBUM_NAME: All Photos
+2024-12-24 15:12:02,614 - INFO - PHOTOS_ONLY: True
+2024-12-24 15:12:02,614 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 15:12:02,615 - INFO - RECENT_PHOTOS: 20
+2024-12-24 15:12:02,616 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 15:12:02,616 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 15:12:02,617 - INFO - Starting iCloud photo sync...
+2024-12-24 15:12:02,619 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:12:02,620 - INFO - Current media count: 0
+2024-12-24 15:12:02,621 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:12:02,621 - INFO - Current media size: 0.0 GB
+2024-12-24 15:12:02,622 - INFO - Maintained storage limits
+2024-12-24 15:12:03,089 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8802.JPG by 180 degrees
+2024-12-24 15:12:04,545 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8801.PNG by 180 degrees
+2024-12-24 15:12:05,802 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8807.PNG by 180 degrees
+2024-12-24 15:12:06,157 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8815.JPG by 180 degrees
+2024-12-24 15:12:06,823 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8804.JPG by 180 degrees
+2024-12-24 15:12:07,180 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/BDF1777F-212E-47B3-9FD7-A92BF375B3F3.JPG by 180 degrees
+2024-12-24 15:12:07,539 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8805.JPG by 180 degrees
+2024-12-24 15:12:08,126 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_81A7792F-5FB8-411C-B501-624AC89AAC5E.JPG by 180 degrees
+2024-12-24 15:12:08,478 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8809.JPG by 180 degrees
+2024-12-24 15:12:08,724 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8816.JPG by 180 degrees
+2024-12-24 15:12:09,066 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8817.JPG by 180 degrees
+2024-12-24 15:12:09,722 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8811.PNG by 180 degrees
+2024-12-24 15:12:10,041 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8808.JPG by 180 degrees
+2024-12-24 15:12:10,389 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8813.JPG by 180 degrees
+2024-12-24 15:12:10,737 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8814.JPG by 180 degrees
+2024-12-24 15:12:11,272 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8810.JPG by 180 degrees
+2024-12-24 15:12:11,883 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8803.JPG by 180 degrees
+2024-12-24 15:12:11,896 - INFO - Rotated and moved files
+2024-12-24 15:12:11,896 - INFO - **************************************************
+2024-12-24 15:12:11,897 - INFO - 
+2024-12-24 15:12:43,990 - INFO - iCloud sync completed successfully. 
+2024-12-24 15:12:43,992 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:12:43,993 - INFO - Current media count: 17
+2024-12-24 15:12:43,995 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:12:43,997 - INFO - Current media size: 0.03810149058699608 GB
+2024-12-24 15:12:43,998 - INFO - Maintained storage limits
+2024-12-24 15:12:43,998 - INFO - Finished this media fetch
+2024-12-24 15:12:44,011 - INFO - Deleted all files in /home/ccc/dev/photo-stream/media-rotated
+2024-12-24 15:12:44,015 - INFO - Moved all files from /home/ccc/dev/photo-stream/media to /home/ccc/dev/photo-stream/media-rotated
+2024-12-24 15:12:44,631 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8802.JPG by 180 degrees
+2024-12-24 15:12:46,089 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8801.PNG by 180 degrees
+2024-12-24 15:12:47,550 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8807.PNG by 180 degrees
+2024-12-24 15:12:47,885 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8815.JPG by 180 degrees
+2024-12-24 15:12:48,583 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8804.JPG by 180 degrees
+2024-12-24 15:12:49,255 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/BDF1777F-212E-47B3-9FD7-A92BF375B3F3.JPG by 180 degrees
+2024-12-24 15:12:49,637 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8805.JPG by 180 degrees
+2024-12-24 15:12:50,278 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_81A7792F-5FB8-411C-B501-624AC89AAC5E.JPG by 180 degrees
+2024-12-24 15:12:50,673 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8809.JPG by 180 degrees
+2024-12-24 15:12:50,969 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8816.JPG by 180 degrees
+2024-12-24 15:12:51,303 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8817.JPG by 180 degrees
+2024-12-24 15:12:52,008 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8811.PNG by 180 degrees
+2024-12-24 15:12:52,346 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8808.JPG by 180 degrees
+2024-12-24 15:12:52,714 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8813.JPG by 180 degrees
+2024-12-24 15:12:53,081 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8814.JPG by 180 degrees
+2024-12-24 15:12:53,638 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8810.JPG by 180 degrees
+2024-12-24 15:12:54,304 - INFO - Rotated /home/ccc/dev/photo-stream/media-rotated/IMG_8803.JPG by 180 degrees
+2024-12-24 15:12:54,317 - INFO - Rotated and moved files
+2024-12-24 15:12:54,318 - INFO - **************************************************
+2024-12-24 15:12:54,318 - INFO - 
+2024-12-24 15:19:10,608 - INFO - **************************************************
+2024-12-24 15:19:10,608 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 15:19:10,609 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 15:19:10,609 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 15:19:10,609 - INFO - ALBUM_NAME: All Photos
+2024-12-24 15:19:10,609 - INFO - PHOTOS_ONLY: True
+2024-12-24 15:19:10,610 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 15:19:10,610 - INFO - RECENT_PHOTOS: 20
+2024-12-24 15:19:10,610 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 15:19:10,610 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 15:19:10,610 - INFO - Starting iCloud photo sync...
+2024-12-24 15:19:10,611 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:19:10,612 - INFO - Current media count: 0
+2024-12-24 15:19:10,612 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:19:10,613 - INFO - Current media size: 0.0 GB
+2024-12-24 15:19:10,613 - INFO - Maintained storage limits
+2024-12-24 15:19:47,499 - INFO - iCloud sync completed successfully. 
+2024-12-24 15:19:47,500 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:19:47,501 - INFO - Current media count: 17
+2024-12-24 15:19:47,503 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:19:47,504 - INFO - Current media size: 0.03810149058699608 GB
+2024-12-24 15:19:47,505 - INFO - Maintained storage limits
+2024-12-24 15:19:47,505 - INFO - Finished this media fetch
+2024-12-24 15:19:47,514 - INFO - Deleted all files in /home/ccc/dev/photo-stream/media-rotated
+2024-12-24 15:19:47,517 - INFO - Moved all files from /home/ccc/dev/photo-stream/media to /home/ccc/dev/photo-stream/media-rotated
+2024-12-24 15:19:47,565 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8802.JPG: name 'ExifTags' is not defined
+2024-12-24 15:19:47,567 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8801.PNG: name 'ExifTags' is not defined
+2024-12-24 15:19:47,568 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8807.PNG: name 'ExifTags' is not defined
+2024-12-24 15:19:47,570 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8815.JPG: name 'ExifTags' is not defined
+2024-12-24 15:19:47,571 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8804.JPG: name 'ExifTags' is not defined
+2024-12-24 15:19:47,573 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/BDF1777F-212E-47B3-9FD7-A92BF375B3F3.JPG: name 'ExifTags' is not defined
+2024-12-24 15:19:47,574 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8805.JPG: name 'ExifTags' is not defined
+2024-12-24 15:19:47,576 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_81A7792F-5FB8-411C-B501-624AC89AAC5E.JPG: name 'ExifTags' is not defined
+2024-12-24 15:19:47,577 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8809.JPG: name 'ExifTags' is not defined
+2024-12-24 15:19:47,579 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8816.JPG: name 'ExifTags' is not defined
+2024-12-24 15:19:47,580 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8817.JPG: name 'ExifTags' is not defined
+2024-12-24 15:19:47,582 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8811.PNG: name 'ExifTags' is not defined
+2024-12-24 15:19:47,583 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8808.JPG: name 'ExifTags' is not defined
+2024-12-24 15:19:47,585 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8813.JPG: name 'ExifTags' is not defined
+2024-12-24 15:19:47,586 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8814.JPG: name 'ExifTags' is not defined
+2024-12-24 15:19:47,588 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8810.JPG: name 'ExifTags' is not defined
+2024-12-24 15:19:47,590 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8803.JPG: name 'ExifTags' is not defined
+2024-12-24 15:19:47,590 - INFO - Rotated and moved files
+2024-12-24 15:19:47,590 - INFO - **************************************************
+2024-12-24 15:19:47,590 - INFO - 
+2024-12-24 15:20:02,283 - INFO - **************************************************
+2024-12-24 15:20:02,284 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 15:20:02,284 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 15:20:02,284 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 15:20:02,285 - INFO - ALBUM_NAME: All Photos
+2024-12-24 15:20:02,285 - INFO - PHOTOS_ONLY: True
+2024-12-24 15:20:02,285 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 15:20:02,285 - INFO - RECENT_PHOTOS: 20
+2024-12-24 15:20:02,286 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 15:20:02,286 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 15:20:02,286 - INFO - Starting iCloud photo sync...
+2024-12-24 15:20:02,287 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:20:02,287 - INFO - Current media count: 0
+2024-12-24 15:20:02,288 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:20:02,288 - INFO - Current media size: 0.0 GB
+2024-12-24 15:20:02,288 - INFO - Maintained storage limits
+2024-12-24 15:20:39,941 - INFO - iCloud sync completed successfully. 
+2024-12-24 15:20:39,942 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:20:39,943 - INFO - Current media count: 17
+2024-12-24 15:20:39,944 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:20:39,946 - INFO - Current media size: 0.03810149058699608 GB
+2024-12-24 15:20:39,946 - INFO - Maintained storage limits
+2024-12-24 15:20:39,947 - INFO - Finished this media fetch
+2024-12-24 15:20:39,963 - INFO - Deleted all files in /home/ccc/dev/photo-stream/media-rotated
+2024-12-24 15:20:39,966 - INFO - Moved all files from /home/ccc/dev/photo-stream/media to /home/ccc/dev/photo-stream/media-rotated
+2024-12-24 15:20:40,017 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8802.JPG: name 'ExifTags' is not defined
+2024-12-24 15:20:40,018 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8801.PNG: name 'ExifTags' is not defined
+2024-12-24 15:20:40,019 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8807.PNG: name 'ExifTags' is not defined
+2024-12-24 15:20:40,021 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8815.JPG: name 'ExifTags' is not defined
+2024-12-24 15:20:40,023 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8804.JPG: name 'ExifTags' is not defined
+2024-12-24 15:20:40,024 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/BDF1777F-212E-47B3-9FD7-A92BF375B3F3.JPG: name 'ExifTags' is not defined
+2024-12-24 15:20:40,026 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8805.JPG: name 'ExifTags' is not defined
+2024-12-24 15:20:40,027 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_81A7792F-5FB8-411C-B501-624AC89AAC5E.JPG: name 'ExifTags' is not defined
+2024-12-24 15:20:40,029 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8809.JPG: name 'ExifTags' is not defined
+2024-12-24 15:20:40,031 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8816.JPG: name 'ExifTags' is not defined
+2024-12-24 15:20:40,032 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8817.JPG: name 'ExifTags' is not defined
+2024-12-24 15:20:40,033 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8811.PNG: name 'ExifTags' is not defined
+2024-12-24 15:20:40,035 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8808.JPG: name 'ExifTags' is not defined
+2024-12-24 15:20:40,037 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8813.JPG: name 'ExifTags' is not defined
+2024-12-24 15:20:40,038 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8814.JPG: name 'ExifTags' is not defined
+2024-12-24 15:20:40,040 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8810.JPG: name 'ExifTags' is not defined
+2024-12-24 15:20:40,041 - ERROR - Error rotating file /home/ccc/dev/photo-stream/media-rotated/IMG_8803.JPG: name 'ExifTags' is not defined
+2024-12-24 15:20:40,042 - INFO - Rotated and moved files
+2024-12-24 15:20:40,042 - INFO - **************************************************
+2024-12-24 15:20:40,042 - INFO - 
+2024-12-24 15:29:16,201 - INFO - **************************************************
+2024-12-24 15:29:16,202 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 15:29:16,202 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 15:29:16,203 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 15:29:16,203 - INFO - ALBUM_NAME: All Photos
+2024-12-24 15:29:16,203 - INFO - PHOTOS_ONLY: True
+2024-12-24 15:29:16,203 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 15:29:16,204 - INFO - RECENT_PHOTOS: 20
+2024-12-24 15:29:16,204 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 15:29:16,204 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 15:29:16,204 - INFO - Starting iCloud photo sync...
+2024-12-24 15:29:16,205 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:29:16,205 - INFO - Current media count: 0
+2024-12-24 15:29:16,206 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:29:16,206 - INFO - Current media size: 0.0 GB
+2024-12-24 15:29:16,207 - INFO - Maintained storage limits
+2024-12-24 15:29:54,269 - INFO - iCloud sync completed successfully. 
+2024-12-24 15:29:54,270 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:29:54,271 - INFO - Current media count: 17
+2024-12-24 15:29:54,272 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:29:54,274 - INFO - Current media size: 0.03810149058699608 GB
+2024-12-24 15:29:54,274 - INFO - Maintained storage limits
+2024-12-24 15:29:54,275 - INFO - Finished this media fetch
+2024-12-24 15:30:02,082 - INFO - **************************************************
+2024-12-24 15:30:02,083 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 15:30:02,083 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 15:30:02,084 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 15:30:02,084 - INFO - ALBUM_NAME: All Photos
+2024-12-24 15:30:02,084 - INFO - PHOTOS_ONLY: True
+2024-12-24 15:30:02,084 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 15:30:02,084 - INFO - RECENT_PHOTOS: 20
+2024-12-24 15:30:02,085 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 15:30:02,085 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 15:30:02,086 - INFO - Starting iCloud photo sync...
+2024-12-24 15:30:02,088 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:30:02,088 - INFO - Current media count: 18
+2024-12-24 15:30:02,090 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:30:02,092 - INFO - Current media size: 0.039842932485044 GB
+2024-12-24 15:30:02,093 - INFO - Maintained storage limits
+2024-12-24 15:30:14,781 - INFO - Rotated and moved files
+2024-12-24 15:30:14,781 - INFO - **************************************************
+2024-12-24 15:30:14,781 - INFO - 
+2024-12-24 15:30:40,716 - INFO - iCloud sync completed successfully. 2024-12-24 15:30:15 ERROR    IOError while writing file to /home/ccc/dev/photo-stream/media/IMG_8817-1669180.JPG. You might have run out of disk space, or the file might be too large for your OS. Skipping this file...
+
+2024-12-24 15:30:40,717 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:30:40,718 - INFO - Current media count: 16
+2024-12-24 15:30:40,719 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:30:40,721 - INFO - Current media size: 0.036546945571899414 GB
+2024-12-24 15:30:40,721 - INFO - Maintained storage limits
+2024-12-24 15:30:40,721 - INFO - Finished this media fetch
+2024-12-24 15:30:59,360 - INFO - Rotated and moved files
+2024-12-24 15:30:59,360 - INFO - **************************************************
+2024-12-24 15:30:59,361 - INFO - 
+2024-12-24 15:35:15,282 - INFO - **************************************************
+2024-12-24 15:35:15,283 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 15:35:15,283 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 15:35:15,283 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 15:35:15,284 - INFO - ALBUM_NAME: All Photos
+2024-12-24 15:35:15,284 - INFO - PHOTOS_ONLY: True
+2024-12-24 15:35:15,284 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 15:35:15,284 - INFO - RECENT_PHOTOS: 20
+2024-12-24 15:35:15,285 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 15:35:15,285 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 15:35:15,285 - INFO - Starting iCloud photo sync...
+2024-12-24 15:35:15,286 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:35:15,286 - INFO - Current media count: 0
+2024-12-24 15:35:15,287 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:35:15,287 - INFO - Current media size: 0.0 GB
+2024-12-24 15:35:15,287 - INFO - Maintained storage limits
+2024-12-24 15:35:57,560 - INFO - iCloud sync completed successfully. 
+2024-12-24 15:35:57,562 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:35:57,562 - INFO - Current media count: 19
+2024-12-24 15:35:57,564 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:35:57,565 - INFO - Current media size: 0.04242809023708105 GB
+2024-12-24 15:35:57,566 - INFO - Maintained storage limits
+2024-12-24 15:35:57,566 - INFO - Finished this media fetch
+2024-12-24 15:36:18,748 - INFO - Rotated and moved files
+2024-12-24 15:36:18,748 - INFO - **************************************************
+2024-12-24 15:36:18,749 - INFO - 
+2024-12-24 15:40:02,290 - INFO - **************************************************
+2024-12-24 15:40:02,291 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 15:40:02,291 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 15:40:02,291 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 15:40:02,292 - INFO - ALBUM_NAME: All Photos
+2024-12-24 15:40:02,292 - INFO - PHOTOS_ONLY: True
+2024-12-24 15:40:02,292 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 15:40:02,292 - INFO - RECENT_PHOTOS: 20
+2024-12-24 15:40:02,293 - INFO - MAX_MEDIA_STORED: 20
+2024-12-24 15:40:02,293 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 15:40:02,293 - INFO - Starting iCloud photo sync...
+2024-12-24 15:40:02,294 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:40:02,294 - INFO - Current media count: 0
+2024-12-24 15:40:02,295 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:40:02,295 - INFO - Current media size: 0.0 GB
+2024-12-24 15:40:02,295 - INFO - Maintained storage limits
+2024-12-24 15:40:44,245 - INFO - iCloud sync completed successfully. 
+2024-12-24 15:40:44,247 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:40:44,247 - INFO - Current media count: 19
+2024-12-24 15:40:44,249 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:40:44,251 - INFO - Current media size: 0.04242809023708105 GB
+2024-12-24 15:40:44,251 - INFO - Maintained storage limits
+2024-12-24 15:40:44,251 - INFO - Finished this media fetch
+2024-12-24 15:41:05,445 - INFO - Rotated and moved files
+2024-12-24 15:41:05,446 - INFO - **************************************************
+2024-12-24 15:41:05,446 - INFO - 
+2024-12-24 15:45:02,374 - INFO - **************************************************
+2024-12-24 15:45:02,375 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 15:45:02,375 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 15:45:02,375 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 15:45:02,376 - INFO - ALBUM_NAME: Mum
+2024-12-24 15:45:02,376 - INFO - PHOTOS_ONLY: True
+2024-12-24 15:45:02,376 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 15:45:02,376 - INFO - RECENT_PHOTOS: 100
+2024-12-24 15:45:02,377 - INFO - MAX_MEDIA_STORED: 100
+2024-12-24 15:45:02,377 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 15:45:02,377 - INFO - Starting iCloud photo sync...
+2024-12-24 15:45:02,378 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:45:02,378 - INFO - Current media count: 0
+2024-12-24 15:45:02,379 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:45:02,379 - INFO - Current media size: 0.0 GB
+2024-12-24 15:45:02,379 - INFO - Maintained storage limits
+2024-12-24 15:45:28,092 - INFO - iCloud sync completed successfully. 
+2024-12-24 15:45:28,094 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 15:45:28,095 - INFO - Current media count: 10
+2024-12-24 15:45:28,096 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 15:45:28,098 - INFO - Current media size: 0.021792955696582794 GB
+2024-12-24 15:45:28,098 - INFO - Maintained storage limits
+2024-12-24 15:45:28,098 - INFO - Finished this media fetch
+2024-12-24 15:45:38,626 - INFO - Rotated and moved files
+2024-12-24 15:45:38,627 - INFO - **************************************************
+2024-12-24 15:45:38,630 - INFO - 
+2024-12-24 16:00:02,287 - INFO - **************************************************
+2024-12-24 16:00:02,288 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 16:00:02,288 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 16:00:02,289 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 16:00:02,289 - INFO - ALBUM_NAME: Mum
+2024-12-24 16:00:02,289 - INFO - PHOTOS_ONLY: True
+2024-12-24 16:00:02,290 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 16:00:02,290 - INFO - RECENT_PHOTOS: 100
+2024-12-24 16:00:02,290 - INFO - MAX_MEDIA_STORED: 100
+2024-12-24 16:00:02,290 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 16:00:02,290 - INFO - Starting iCloud photo sync...
+2024-12-24 16:00:02,291 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 16:00:02,292 - INFO - Current media count: 0
+2024-12-24 16:00:02,292 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 16:00:02,293 - INFO - Current media size: 0.0 GB
+2024-12-24 16:00:02,293 - INFO - Maintained storage limits
+2024-12-24 16:00:27,431 - INFO - iCloud sync completed successfully. 
+2024-12-24 16:00:27,432 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 16:00:27,432 - INFO - Current media count: 10
+2024-12-24 16:00:27,434 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 16:00:27,435 - INFO - Current media size: 0.021792955696582794 GB
+2024-12-24 16:00:27,436 - INFO - Maintained storage limits
+2024-12-24 16:00:27,436 - INFO - Finished this media fetch
+2024-12-24 16:00:36,974 - INFO - Rotated and moved files
+2024-12-24 16:00:36,974 - INFO - **************************************************
+2024-12-24 16:00:36,975 - INFO - 
+2024-12-24 16:15:02,787 - INFO - **************************************************
+2024-12-24 16:15:02,788 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 16:15:02,789 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 16:15:02,789 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 16:15:02,789 - INFO - ALBUM_NAME: Mum
+2024-12-24 16:15:02,789 - INFO - PHOTOS_ONLY: True
+2024-12-24 16:15:02,790 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 16:15:02,790 - INFO - RECENT_PHOTOS: 100
+2024-12-24 16:15:02,790 - INFO - MAX_MEDIA_STORED: 100
+2024-12-24 16:15:02,790 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 16:15:02,790 - INFO - Starting iCloud photo sync...
+2024-12-24 16:15:02,791 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 16:15:02,792 - INFO - Current media count: 0
+2024-12-24 16:15:02,792 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 16:15:02,793 - INFO - Current media size: 0.0 GB
+2024-12-24 16:15:02,793 - INFO - Maintained storage limits
+2024-12-24 16:15:25,304 - INFO - iCloud sync completed successfully. 
+2024-12-24 16:15:25,305 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 16:15:25,305 - INFO - Current media count: 10
+2024-12-24 16:15:25,306 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 16:15:25,307 - INFO - Current media size: 0.021792955696582794 GB
+2024-12-24 16:15:25,308 - INFO - Maintained storage limits
+2024-12-24 16:15:25,308 - INFO - Finished this media fetch
+2024-12-24 16:15:34,327 - INFO - Rotated and moved files
+2024-12-24 16:15:34,327 - INFO - **************************************************
+2024-12-24 16:15:34,327 - INFO - 
+2024-12-24 16:30:02,291 - INFO - **************************************************
+2024-12-24 16:30:02,292 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 16:30:02,292 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 16:30:02,292 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 16:30:02,293 - INFO - ALBUM_NAME: Mum
+2024-12-24 16:30:02,293 - INFO - PHOTOS_ONLY: True
+2024-12-24 16:30:02,293 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 16:30:02,293 - INFO - RECENT_PHOTOS: 100
+2024-12-24 16:30:02,293 - INFO - MAX_MEDIA_STORED: 100
+2024-12-24 16:30:02,294 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 16:30:02,294 - INFO - Starting iCloud photo sync...
+2024-12-24 16:30:02,294 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 16:30:02,295 - INFO - Current media count: 0
+2024-12-24 16:30:02,295 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 16:30:02,296 - INFO - Current media size: 0.0 GB
+2024-12-24 16:30:02,296 - INFO - Maintained storage limits
+2024-12-24 16:30:23,855 - INFO - iCloud sync completed successfully. 
+2024-12-24 16:30:23,856 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 16:30:23,856 - INFO - Current media count: 10
+2024-12-24 16:30:23,857 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 16:30:23,859 - INFO - Current media size: 0.021792955696582794 GB
+2024-12-24 16:30:23,859 - INFO - Maintained storage limits
+2024-12-24 16:30:23,859 - INFO - Finished this media fetch
+2024-12-24 16:30:32,805 - INFO - Rotated and moved files
+2024-12-24 16:30:32,806 - INFO - **************************************************
+2024-12-24 16:30:32,806 - INFO - 
+2024-12-24 16:45:02,688 - INFO - **************************************************
+2024-12-24 16:45:02,688 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 16:45:02,689 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 16:45:02,689 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 16:45:02,689 - INFO - ALBUM_NAME: Mum
+2024-12-24 16:45:02,689 - INFO - PHOTOS_ONLY: True
+2024-12-24 16:45:02,689 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 16:45:02,690 - INFO - RECENT_PHOTOS: 100
+2024-12-24 16:45:02,690 - INFO - MAX_MEDIA_STORED: 100
+2024-12-24 16:45:02,690 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 16:45:02,690 - INFO - Starting iCloud photo sync...
+2024-12-24 16:45:02,691 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 16:45:02,691 - INFO - Current media count: 0
+2024-12-24 16:45:02,692 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 16:45:02,692 - INFO - Current media size: 0.0 GB
+2024-12-24 16:45:02,692 - INFO - Maintained storage limits
+2024-12-24 16:45:29,956 - INFO - iCloud sync completed successfully. 
+2024-12-24 16:45:29,957 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 16:45:29,957 - INFO - Current media count: 17
+2024-12-24 16:45:29,959 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 16:45:29,961 - INFO - Current media size: 0.04085627198219299 GB
+2024-12-24 16:45:29,961 - INFO - Maintained storage limits
+2024-12-24 16:45:29,961 - INFO - Finished this media fetch
+2024-12-24 16:45:46,108 - INFO - Rotated and moved files
+2024-12-24 16:45:46,109 - INFO - **************************************************
+2024-12-24 16:45:46,109 - INFO - 
+2024-12-24 17:00:02,012 - INFO - **************************************************
+2024-12-24 17:00:02,013 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 17:00:02,013 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 17:00:02,013 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 17:00:02,013 - INFO - ALBUM_NAME: Mum
+2024-12-24 17:00:02,014 - INFO - PHOTOS_ONLY: True
+2024-12-24 17:00:02,014 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 17:00:02,014 - INFO - RECENT_PHOTOS: 100
+2024-12-24 17:00:02,014 - INFO - MAX_MEDIA_STORED: 100
+2024-12-24 17:00:02,014 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 17:00:02,015 - INFO - Starting iCloud photo sync...
+2024-12-24 17:00:02,015 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 17:00:02,016 - INFO - Current media count: 0
+2024-12-24 17:00:02,016 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 17:00:02,016 - INFO - Current media size: 0.0 GB
+2024-12-24 17:00:02,017 - INFO - Maintained storage limits
+2024-12-24 17:00:30,417 - INFO - iCloud sync completed successfully. 
+2024-12-24 17:00:30,418 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 17:00:30,419 - INFO - Current media count: 17
+2024-12-24 17:00:30,420 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 17:00:30,422 - INFO - Current media size: 0.04085627198219299 GB
+2024-12-24 17:00:30,422 - INFO - Maintained storage limits
+2024-12-24 17:00:30,422 - INFO - Finished this media fetch
+2024-12-24 17:00:46,557 - INFO - Rotated and moved files
+2024-12-24 17:00:46,557 - INFO - **************************************************
+2024-12-24 17:00:46,558 - INFO - 
+2024-12-24 17:15:02,519 - INFO - **************************************************
+2024-12-24 17:15:02,519 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 17:15:02,519 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 17:15:02,519 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 17:15:02,520 - INFO - ALBUM_NAME: Mum
+2024-12-24 17:15:02,520 - INFO - PHOTOS_ONLY: True
+2024-12-24 17:15:02,520 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 17:15:02,520 - INFO - RECENT_PHOTOS: 100
+2024-12-24 17:15:02,521 - INFO - MAX_MEDIA_STORED: 100
+2024-12-24 17:15:02,521 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 17:15:02,521 - INFO - Starting iCloud photo sync...
+2024-12-24 17:15:02,522 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 17:15:02,522 - INFO - Current media count: 0
+2024-12-24 17:15:02,522 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 17:15:02,523 - INFO - Current media size: 0.0 GB
+2024-12-24 17:15:02,523 - INFO - Maintained storage limits
+2024-12-24 17:15:30,932 - INFO - iCloud sync completed successfully. 
+2024-12-24 17:15:30,934 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 17:15:30,934 - INFO - Current media count: 17
+2024-12-24 17:15:30,936 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 17:15:30,938 - INFO - Current media size: 0.04085627198219299 GB
+2024-12-24 17:15:30,938 - INFO - Maintained storage limits
+2024-12-24 17:15:30,939 - INFO - Finished this media fetch
+2024-12-24 17:15:47,039 - INFO - Rotated and moved files
+2024-12-24 17:15:47,040 - INFO - **************************************************
+2024-12-24 17:15:47,040 - INFO - 
+2024-12-24 17:30:02,017 - INFO - **************************************************
+2024-12-24 17:30:02,017 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 17:30:02,018 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 17:30:02,018 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 17:30:02,018 - INFO - ALBUM_NAME: Mum
+2024-12-24 17:30:02,018 - INFO - PHOTOS_ONLY: True
+2024-12-24 17:30:02,019 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 17:30:02,019 - INFO - RECENT_PHOTOS: 100
+2024-12-24 17:30:02,019 - INFO - MAX_MEDIA_STORED: 100
+2024-12-24 17:30:02,019 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 17:30:02,019 - INFO - Starting iCloud photo sync...
+2024-12-24 17:30:02,020 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 17:30:02,020 - INFO - Current media count: 0
+2024-12-24 17:30:02,021 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 17:30:02,021 - INFO - Current media size: 0.0 GB
+2024-12-24 17:30:02,021 - INFO - Maintained storage limits
+2024-12-24 17:30:32,525 - INFO - iCloud sync completed successfully. 
+2024-12-24 17:30:32,527 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 17:30:32,527 - INFO - Current media count: 17
+2024-12-24 17:30:32,529 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 17:30:32,530 - INFO - Current media size: 0.04085627198219299 GB
+2024-12-24 17:30:32,531 - INFO - Maintained storage limits
+2024-12-24 17:30:32,531 - INFO - Finished this media fetch
+2024-12-24 17:30:48,547 - INFO - Rotated and moved files
+2024-12-24 17:30:48,547 - INFO - **************************************************
+2024-12-24 17:30:48,548 - INFO - 
+2024-12-24 17:45:02,464 - INFO - **************************************************
+2024-12-24 17:45:02,465 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 17:45:02,465 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 17:45:02,465 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 17:45:02,465 - INFO - ALBUM_NAME: Mum
+2024-12-24 17:45:02,466 - INFO - PHOTOS_ONLY: True
+2024-12-24 17:45:02,466 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 17:45:02,466 - INFO - RECENT_PHOTOS: 100
+2024-12-24 17:45:02,466 - INFO - MAX_MEDIA_STORED: 100
+2024-12-24 17:45:02,466 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 17:45:02,467 - INFO - Starting iCloud photo sync...
+2024-12-24 17:45:02,467 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 17:45:02,468 - INFO - Current media count: 0
+2024-12-24 17:45:02,468 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 17:45:02,468 - INFO - Current media size: 0.0 GB
+2024-12-24 17:45:02,469 - INFO - Maintained storage limits
+2024-12-24 17:45:30,806 - INFO - iCloud sync completed successfully. 
+2024-12-24 17:45:30,807 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 17:45:30,808 - INFO - Current media count: 17
+2024-12-24 17:45:30,809 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 17:45:30,811 - INFO - Current media size: 0.04085627198219299 GB
+2024-12-24 17:45:30,811 - INFO - Maintained storage limits
+2024-12-24 17:45:30,811 - INFO - Finished this media fetch
+2024-12-24 17:45:47,068 - INFO - Rotated and moved files
+2024-12-24 17:45:47,069 - INFO - **************************************************
+2024-12-24 17:45:47,069 - INFO - 
+2024-12-24 18:00:02,048 - INFO - **************************************************
+2024-12-24 18:00:02,048 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 18:00:02,048 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 18:00:02,049 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 18:00:02,049 - INFO - ALBUM_NAME: Mum
+2024-12-24 18:00:02,049 - INFO - PHOTOS_ONLY: True
+2024-12-24 18:00:02,049 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 18:00:02,050 - INFO - RECENT_PHOTOS: 100
+2024-12-24 18:00:02,050 - INFO - MAX_MEDIA_STORED: 100
+2024-12-24 18:00:02,050 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 18:00:02,050 - INFO - Starting iCloud photo sync...
+2024-12-24 18:00:02,051 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:00:02,051 - INFO - Current media count: 0
+2024-12-24 18:00:02,052 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:00:02,052 - INFO - Current media size: 0.0 GB
+2024-12-24 18:00:02,052 - INFO - Maintained storage limits
+2024-12-24 18:00:32,636 - INFO - iCloud sync completed successfully. 
+2024-12-24 18:00:32,637 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:00:32,637 - INFO - Current media count: 17
+2024-12-24 18:00:32,639 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:00:32,640 - INFO - Current media size: 0.04085627198219299 GB
+2024-12-24 18:00:32,641 - INFO - Maintained storage limits
+2024-12-24 18:00:32,641 - INFO - Finished this media fetch
+2024-12-24 18:00:48,584 - INFO - Rotated and moved files
+2024-12-24 18:00:48,584 - INFO - **************************************************
+2024-12-24 18:00:48,585 - INFO - 
+2024-12-24 18:15:02,687 - INFO - **************************************************
+2024-12-24 18:15:02,688 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 18:15:02,688 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 18:15:02,689 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 18:15:02,689 - INFO - ALBUM_NAME: Mum
+2024-12-24 18:15:02,689 - INFO - PHOTOS_ONLY: True
+2024-12-24 18:15:02,689 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 18:15:02,690 - INFO - RECENT_PHOTOS: 100
+2024-12-24 18:15:02,690 - INFO - MAX_MEDIA_STORED: 100
+2024-12-24 18:15:02,690 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 18:15:02,691 - INFO - Starting iCloud photo sync...
+2024-12-24 18:15:02,691 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:15:02,692 - INFO - Current media count: 0
+2024-12-24 18:15:02,692 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:15:02,695 - INFO - Current media size: 0.0 GB
+2024-12-24 18:15:02,695 - INFO - Maintained storage limits
+2024-12-24 18:15:36,288 - INFO - iCloud sync completed successfully. 
+2024-12-24 18:15:36,289 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:15:36,290 - INFO - Current media count: 17
+2024-12-24 18:15:36,291 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:15:36,293 - INFO - Current media size: 0.04085627198219299 GB
+2024-12-24 18:15:36,293 - INFO - Maintained storage limits
+2024-12-24 18:15:36,294 - INFO - Finished this media fetch
+2024-12-24 18:15:55,872 - INFO - Rotated and moved files
+2024-12-24 18:15:55,873 - INFO - **************************************************
+2024-12-24 18:15:55,873 - INFO - 
+2024-12-24 18:19:49,075 - INFO - **************************************************
+2024-12-24 18:19:49,076 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 18:19:49,076 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 18:19:49,077 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 18:19:49,077 - INFO - ALBUM_NAME: Mum
+2024-12-24 18:19:49,077 - INFO - PHOTOS_ONLY: True
+2024-12-24 18:19:49,077 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 18:19:49,077 - INFO - RECENT_PHOTOS: 100
+2024-12-24 18:19:49,078 - INFO - MAX_MEDIA_STORED: 100
+2024-12-24 18:19:49,078 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 18:19:49,078 - INFO - Starting iCloud photo sync...
+2024-12-24 18:19:49,079 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:19:49,079 - INFO - Current media count: 0
+2024-12-24 18:19:49,080 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:19:49,080 - INFO - Current media size: 0.0 GB
+2024-12-24 18:19:49,081 - INFO - Maintained storage limits
+2024-12-24 18:20:17,195 - INFO - iCloud sync completed successfully. 
+2024-12-24 18:20:17,210 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:20:17,210 - INFO - Current media count: 17
+2024-12-24 18:20:17,212 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:20:17,214 - INFO - Current media size: 0.04085627198219299 GB
+2024-12-24 18:20:17,214 - INFO - Maintained storage limits
+2024-12-24 18:20:17,214 - INFO - Finished this media fetch
+2024-12-24 18:24:31,258 - INFO - **************************************************
+2024-12-24 18:24:31,259 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 18:24:31,259 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 18:24:31,259 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 18:24:31,259 - INFO - ALBUM_NAME: Mum
+2024-12-24 18:24:31,260 - INFO - PHOTOS_ONLY: True
+2024-12-24 18:24:31,260 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 18:24:31,260 - INFO - RECENT_PHOTOS: 100
+2024-12-24 18:24:31,260 - INFO - MAX_MEDIA_STORED: 100
+2024-12-24 18:24:31,260 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 18:24:31,261 - INFO - Starting iCloud photo sync...
+2024-12-24 18:24:31,262 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:24:31,263 - INFO - Current media count: 17
+2024-12-24 18:24:31,264 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:24:31,266 - INFO - Current media size: 0.04085627198219299 GB
+2024-12-24 18:24:31,266 - INFO - Maintained storage limits
+2024-12-24 18:24:41,184 - INFO - iCloud sync completed successfully. 
+2024-12-24 18:24:41,185 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:24:41,186 - INFO - Current media count: 17
+2024-12-24 18:24:41,187 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:24:41,189 - INFO - Current media size: 0.04085627198219299 GB
+2024-12-24 18:24:41,189 - INFO - Maintained storage limits
+2024-12-24 18:24:41,190 - INFO - Finished this media fetch
+2024-12-24 18:25:06,608 - INFO - **************************************************
+2024-12-24 18:25:06,609 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 18:25:06,609 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 18:25:06,609 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 18:25:06,609 - INFO - ALBUM_NAME: Mum
+2024-12-24 18:25:06,610 - INFO - PHOTOS_ONLY: True
+2024-12-24 18:25:06,610 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 18:25:06,610 - INFO - RECENT_PHOTOS: 100
+2024-12-24 18:25:06,610 - INFO - MAX_MEDIA_STORED: 100
+2024-12-24 18:25:06,611 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 18:25:06,611 - INFO - Starting iCloud photo sync...
+2024-12-24 18:25:06,612 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:25:06,613 - INFO - Current media count: 17
+2024-12-24 18:25:06,614 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:25:06,616 - INFO - Current media size: 0.04085627198219299 GB
+2024-12-24 18:25:06,616 - INFO - Maintained storage limits
+2024-12-24 18:25:16,547 - INFO - iCloud sync completed successfully. 
+2024-12-24 18:25:16,549 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:25:16,561 - INFO - Current media count: 17
+2024-12-24 18:25:16,563 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:25:16,565 - INFO - Current media size: 0.04085627198219299 GB
+2024-12-24 18:25:16,565 - INFO - Maintained storage limits
+2024-12-24 18:25:16,565 - INFO - Finished this media fetch
+2024-12-24 18:25:45,321 - INFO - **************************************************
+2024-12-24 18:25:45,321 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 18:25:45,321 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 18:25:45,322 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 18:25:45,322 - INFO - ALBUM_NAME: Mum
+2024-12-24 18:25:45,322 - INFO - PHOTOS_ONLY: True
+2024-12-24 18:25:45,322 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 18:25:45,323 - INFO - RECENT_PHOTOS: 100
+2024-12-24 18:25:45,323 - INFO - MAX_MEDIA_STORED: 100
+2024-12-24 18:25:45,323 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 18:25:45,323 - INFO - Starting iCloud photo sync...
+2024-12-24 18:25:45,325 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:25:45,325 - INFO - Current media count: 17
+2024-12-24 18:25:45,327 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:25:45,329 - INFO - Current media size: 0.04085627198219299 GB
+2024-12-24 18:25:45,329 - INFO - Maintained storage limits
+2024-12-24 18:25:55,133 - INFO - iCloud sync completed successfully. 
+2024-12-24 18:25:55,135 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:25:55,148 - INFO - Current media count: 17
+2024-12-24 18:25:55,151 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:25:55,153 - INFO - Current media size: 0.04085627198219299 GB
+2024-12-24 18:25:55,154 - INFO - Maintained storage limits
+2024-12-24 18:25:55,154 - INFO - Finished this media fetch
+2024-12-24 18:27:52,764 - INFO - **************************************************
+2024-12-24 18:27:52,764 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 18:27:52,765 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 18:27:52,765 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 18:27:52,765 - INFO - ALBUM_NAME: Mum
+2024-12-24 18:27:52,765 - INFO - PHOTOS_ONLY: True
+2024-12-24 18:27:52,766 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 18:27:52,766 - INFO - RECENT_PHOTOS: 100
+2024-12-24 18:27:52,766 - INFO - MAX_MEDIA_STORED: 100
+2024-12-24 18:27:52,766 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 18:27:52,767 - INFO - Starting iCloud photo sync...
+2024-12-24 18:27:52,768 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:27:52,769 - INFO - Current media count: 17
+2024-12-24 18:27:52,770 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:27:52,772 - INFO - Current media size: 0.04085627198219299 GB
+2024-12-24 18:27:52,772 - INFO - Maintained storage limits
+2024-12-24 18:28:02,645 - INFO - iCloud sync completed successfully. 
+2024-12-24 18:28:02,646 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:28:02,647 - INFO - Current media count: 17
+2024-12-24 18:28:02,648 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:28:02,650 - INFO - Current media size: 0.04085627198219299 GB
+2024-12-24 18:28:02,650 - INFO - Maintained storage limits
+2024-12-24 18:28:02,650 - INFO - Finished this media fetch
+2024-12-24 18:28:02,655 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:28:02,656 - INFO - Current media count: 17
+2024-12-24 18:28:02,657 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:28:02,659 - INFO - Current media size: 0.04085627198219299 GB
+2024-12-24 18:28:02,659 - INFO - Rotated and moved files
+2024-12-24 18:28:02,659 - INFO - **************************************************
+2024-12-24 18:28:02,660 - INFO - 
+2024-12-24 18:30:01,960 - INFO - **************************************************
+2024-12-24 18:30:01,960 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 18:30:01,961 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 18:30:01,961 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 18:30:01,961 - INFO - ALBUM_NAME: Mum
+2024-12-24 18:30:01,962 - INFO - PHOTOS_ONLY: True
+2024-12-24 18:30:01,962 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 18:30:01,962 - INFO - RECENT_PHOTOS: 100
+2024-12-24 18:30:01,962 - INFO - MAX_MEDIA_STORED: 100
+2024-12-24 18:30:01,963 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 18:30:01,963 - INFO - Starting iCloud photo sync...
+2024-12-24 18:30:01,964 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:30:01,964 - INFO - Current media count: 0
+2024-12-24 18:30:01,964 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:30:01,965 - INFO - Current media size: 0.0 GB
+2024-12-24 18:30:01,965 - INFO - Maintained storage limits
+2024-12-24 18:30:32,121 - INFO - iCloud sync completed successfully. 
+2024-12-24 18:30:32,350 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:30:32,351 - INFO - Current media count: 17
+2024-12-24 18:30:32,352 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:30:32,354 - INFO - Current media size: 0.04085627198219299 GB
+2024-12-24 18:30:32,354 - INFO - Maintained storage limits
+2024-12-24 18:30:32,355 - INFO - Finished this media fetch
+2024-12-24 18:30:33,074 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:30:33,076 - INFO - Current media count: 17
+2024-12-24 18:30:33,084 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:30:33,091 - INFO - Current media size: 0.04085627198219299 GB
+2024-12-24 18:30:33,093 - INFO - Rotated and moved files
+2024-12-24 18:30:33,094 - INFO - **************************************************
+2024-12-24 18:30:33,095 - INFO - 
+2024-12-24 18:32:23,450 - INFO - **************************************************
+2024-12-24 18:32:23,451 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 18:32:23,451 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 18:32:23,451 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 18:32:23,452 - INFO - ALBUM_NAME: Mum
+2024-12-24 18:32:23,452 - INFO - PHOTOS_ONLY: True
+2024-12-24 18:32:23,452 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 18:32:23,452 - INFO - RECENT_PHOTOS: 100
+2024-12-24 18:32:23,453 - INFO - MAX_MEDIA_STORED: 100
+2024-12-24 18:32:23,453 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 18:32:23,453 - INFO - Starting iCloud photo sync...
+2024-12-24 18:32:23,454 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:32:23,454 - INFO - Current media count: 0
+2024-12-24 18:32:23,455 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:32:23,455 - INFO - Current media size: 0.0 GB
+2024-12-24 18:32:23,455 - INFO - Maintained storage limits
+2024-12-24 18:38:47,812 - INFO - **************************************************
+2024-12-24 18:38:47,814 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 18:38:47,814 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 18:38:47,814 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 18:38:47,815 - INFO - ALBUM_NAME: Mum
+2024-12-24 18:38:47,815 - INFO - PHOTOS_ONLY: True
+2024-12-24 18:38:47,815 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 18:38:47,815 - INFO - RECENT_PHOTOS: 100
+2024-12-24 18:38:47,815 - INFO - MAX_MEDIA_STORED: 100
+2024-12-24 18:38:47,816 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 18:38:47,816 - INFO - Starting iCloud photo sync...
+2024-12-24 18:38:47,817 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:38:47,817 - INFO - Current media count: 0
+2024-12-24 18:38:47,818 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:38:47,818 - INFO - Current media size: 0.0 GB
+2024-12-24 18:38:47,818 - INFO - Maintained storage limits
+2024-12-24 18:39:13,434 - INFO - iCloud sync completed successfully. 
+2024-12-24 18:39:13,436 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:39:13,436 - INFO - Current media count: 10
+2024-12-24 18:39:13,439 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:39:13,441 - INFO - Current media size: 0.02526538446545601 GB
+2024-12-24 18:39:13,441 - INFO - Maintained storage limits
+2024-12-24 18:39:13,442 - INFO - Finished this media fetch
+2024-12-24 18:39:13,779 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:39:13,780 - INFO - Current media count: 17
+2024-12-24 18:39:13,789 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:39:13,795 - INFO - Current media size: 0.04085627198219299 GB
+2024-12-24 18:39:13,797 - INFO - Rotated and moved files
+2024-12-24 18:39:13,798 - INFO - **************************************************
+2024-12-24 18:39:13,799 - INFO - 
+2024-12-24 18:40:10,307 - INFO - **************************************************
+2024-12-24 18:40:10,308 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 18:40:10,308 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 18:40:10,308 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 18:40:10,309 - INFO - ALBUM_NAME: Mum
+2024-12-24 18:40:10,309 - INFO - PHOTOS_ONLY: True
+2024-12-24 18:40:10,309 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 18:40:10,309 - INFO - RECENT_PHOTOS: 100
+2024-12-24 18:40:10,310 - INFO - MAX_MEDIA_STORED: 100
+2024-12-24 18:40:10,310 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 18:40:10,310 - INFO - Starting iCloud photo sync...
+2024-12-24 18:40:10,311 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:40:10,311 - INFO - Current media count: 0
+2024-12-24 18:40:10,312 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:40:10,312 - INFO - Current media size: 0.0 GB
+2024-12-24 18:40:10,312 - INFO - Maintained storage limits
+2024-12-24 18:40:30,614 - INFO - iCloud sync completed successfully. 
+2024-12-24 18:40:30,615 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:40:30,615 - INFO - Current media count: 10
+2024-12-24 18:40:30,617 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:40:30,618 - INFO - Current media size: 0.02526538446545601 GB
+2024-12-24 18:40:30,618 - INFO - Maintained storage limits
+2024-12-24 18:40:30,618 - INFO - Finished this media fetch
+2024-12-24 18:40:30,621 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:40:30,622 - INFO - Current media count: 10
+2024-12-24 18:40:30,624 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:40:30,625 - INFO - Current media size: 0.02526538446545601 GB
+2024-12-24 18:40:30,625 - INFO - Rotated and moved files
+2024-12-24 18:40:30,625 - INFO - **************************************************
+2024-12-24 18:40:30,626 - INFO - 
+2024-12-24 18:45:39,437 - INFO - **************************************************
+2024-12-24 18:45:39,438 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 18:45:39,438 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 18:45:39,439 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 18:45:39,439 - INFO - ALBUM_NAME: Mum
+2024-12-24 18:45:39,439 - INFO - PHOTOS_ONLY: True
+2024-12-24 18:45:39,439 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 18:45:39,439 - INFO - RECENT_PHOTOS: 100
+2024-12-24 18:45:39,440 - INFO - MAX_MEDIA_STORED: 100
+2024-12-24 18:45:39,440 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 18:45:39,440 - INFO - Starting iCloud photo sync...
+2024-12-24 18:45:39,441 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:45:39,441 - INFO - Current media count: 0
+2024-12-24 18:45:39,442 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:45:39,442 - INFO - Current media size: 0.0 GB
+2024-12-24 18:45:39,442 - INFO - Maintained storage limits
+2024-12-24 18:46:00,454 - INFO - iCloud sync completed successfully. 
+2024-12-24 18:46:00,455 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:46:00,455 - INFO - Current media count: 10
+2024-12-24 18:46:00,456 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:46:00,458 - INFO - Current media size: 0.02526538446545601 GB
+2024-12-24 18:46:00,458 - INFO - Maintained storage limits
+2024-12-24 18:46:00,458 - INFO - Finished this media fetch
+2024-12-24 18:46:00,701 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 18:46:00,701 - INFO - Current media count: 10
+2024-12-24 18:46:00,705 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 18:46:00,708 - INFO - Current media size: 0.02526538446545601 GB
+2024-12-24 18:46:00,709 - INFO - Rotated and moved files
+2024-12-24 18:46:00,709 - INFO - **************************************************
+2024-12-24 18:46:00,709 - INFO - 
+2024-12-24 23:00:01,923 - INFO - **************************************************
+2024-12-24 23:00:01,924 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 23:00:01,925 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 23:00:01,925 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 23:00:01,925 - INFO - ALBUM_NAME: Mum
+2024-12-24 23:00:01,925 - INFO - PHOTOS_ONLY: True
+2024-12-24 23:00:01,926 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 23:00:01,926 - INFO - RECENT_PHOTOS: 100
+2024-12-24 23:00:01,926 - INFO - MAX_MEDIA_STORED: 100
+2024-12-24 23:00:01,926 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 23:00:01,927 - INFO - Starting iCloud photo sync...
+2024-12-24 23:00:01,928 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 23:00:01,928 - INFO - Current media count: 0
+2024-12-24 23:00:01,928 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 23:00:01,929 - INFO - Current media size: 0.0 GB
+2024-12-24 23:00:01,929 - INFO - Maintained storage limits
+2024-12-24 23:01:09,942 - INFO - iCloud sync completed successfully. 
+2024-12-24 23:01:09,944 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 23:01:09,944 - INFO - Current media count: 39
+2024-12-24 23:01:09,947 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 23:01:09,950 - INFO - Current media size: 0.1018733773380518 GB
+2024-12-24 23:01:09,951 - INFO - Maintained storage limits
+2024-12-24 23:01:09,951 - INFO - Finished this media fetch
+2024-12-24 23:01:10,441 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 23:01:10,441 - INFO - Current media count: 39
+2024-12-24 23:01:10,445 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 23:01:10,449 - INFO - Current media size: 0.1018733773380518 GB
+2024-12-24 23:01:10,449 - INFO - Rotated and moved files
+2024-12-24 23:01:10,449 - INFO - **************************************************
+2024-12-24 23:01:10,449 - INFO - 
+2024-12-24 23:15:02,367 - INFO - **************************************************
+2024-12-24 23:15:02,368 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 23:15:02,368 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 23:15:02,368 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 23:15:02,369 - INFO - ALBUM_NAME: Mum
+2024-12-24 23:15:02,369 - INFO - PHOTOS_ONLY: True
+2024-12-24 23:15:02,369 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 23:15:02,369 - INFO - RECENT_PHOTOS: 100
+2024-12-24 23:15:02,370 - INFO - MAX_MEDIA_STORED: 100
+2024-12-24 23:15:02,370 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 23:15:02,370 - INFO - Starting iCloud photo sync...
+2024-12-24 23:15:02,371 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 23:15:02,371 - INFO - Current media count: 0
+2024-12-24 23:15:02,371 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 23:15:02,372 - INFO - Current media size: 0.0 GB
+2024-12-24 23:15:02,372 - INFO - Maintained storage limits
+2024-12-24 23:16:14,522 - INFO - iCloud sync completed successfully. 
+2024-12-24 23:16:14,524 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 23:16:14,524 - INFO - Current media count: 39
+2024-12-24 23:16:14,527 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 23:16:14,531 - INFO - Current media size: 0.1018733773380518 GB
+2024-12-24 23:16:14,531 - INFO - Maintained storage limits
+2024-12-24 23:16:14,531 - INFO - Finished this media fetch
+2024-12-24 23:16:15,570 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 23:16:15,571 - INFO - Current media count: 39
+2024-12-24 23:16:15,579 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 23:16:15,586 - INFO - Current media size: 0.1018733773380518 GB
+2024-12-24 23:16:15,587 - INFO - Rotated and moved files
+2024-12-24 23:16:15,587 - INFO - **************************************************
+2024-12-24 23:16:15,588 - INFO - 
+2024-12-24 23:30:02,546 - INFO - **************************************************
+2024-12-24 23:30:02,547 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 23:30:02,547 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 23:30:02,547 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 23:30:02,548 - INFO - ALBUM_NAME: Mum
+2024-12-24 23:30:02,548 - INFO - PHOTOS_ONLY: True
+2024-12-24 23:30:02,548 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 23:30:02,548 - INFO - RECENT_PHOTOS: 100
+2024-12-24 23:30:02,548 - INFO - MAX_MEDIA_STORED: 100
+2024-12-24 23:30:02,549 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 23:30:02,549 - INFO - Starting iCloud photo sync...
+2024-12-24 23:30:02,550 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 23:30:02,550 - INFO - Current media count: 0
+2024-12-24 23:30:02,550 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 23:30:02,551 - INFO - Current media size: 0.0 GB
+2024-12-24 23:30:02,551 - INFO - Maintained storage limits
+2024-12-24 23:31:18,237 - INFO - iCloud sync completed successfully. 
+2024-12-24 23:31:18,240 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 23:31:18,240 - INFO - Current media count: 39
+2024-12-24 23:31:18,243 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 23:31:18,246 - INFO - Current media size: 0.1018733773380518 GB
+2024-12-24 23:31:18,246 - INFO - Maintained storage limits
+2024-12-24 23:31:18,246 - INFO - Finished this media fetch
+2024-12-24 23:31:19,046 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 23:31:19,047 - INFO - Current media count: 39
+2024-12-24 23:31:19,059 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 23:31:19,069 - INFO - Current media size: 0.1018733773380518 GB
+2024-12-24 23:31:19,069 - INFO - Rotated and moved files
+2024-12-24 23:31:19,070 - INFO - **************************************************
+2024-12-24 23:31:19,071 - INFO - 
+2024-12-24 23:45:01,969 - INFO - **************************************************
+2024-12-24 23:45:01,969 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-24 23:45:01,969 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-24 23:45:01,970 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-24 23:45:01,970 - INFO - ALBUM_NAME: Mum
+2024-12-24 23:45:01,970 - INFO - PHOTOS_ONLY: True
+2024-12-24 23:45:01,970 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-24 23:45:01,970 - INFO - RECENT_PHOTOS: 100
+2024-12-24 23:45:01,971 - INFO - MAX_MEDIA_STORED: 100
+2024-12-24 23:45:01,971 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-24 23:45:01,971 - INFO - Starting iCloud photo sync...
+2024-12-24 23:45:01,972 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 23:45:01,972 - INFO - Current media count: 0
+2024-12-24 23:45:01,972 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 23:45:01,973 - INFO - Current media size: 0.0 GB
+2024-12-24 23:45:01,973 - INFO - Maintained storage limits
+2024-12-24 23:46:09,606 - INFO - iCloud sync completed successfully. 
+2024-12-24 23:46:09,608 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 23:46:09,609 - INFO - Current media count: 39
+2024-12-24 23:46:09,612 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 23:46:09,615 - INFO - Current media size: 0.1018733773380518 GB
+2024-12-24 23:46:09,615 - INFO - Maintained storage limits
+2024-12-24 23:46:09,615 - INFO - Finished this media fetch
+2024-12-24 23:46:10,838 - INFO - Deleted 0 files to maintain max media count.
+2024-12-24 23:46:10,838 - INFO - Current media count: 39
+2024-12-24 23:46:10,843 - INFO - Deleted 0 files to maintain max media size.
+2024-12-24 23:46:10,847 - INFO - Current media size: 0.1018733773380518 GB
+2024-12-24 23:46:10,847 - INFO - Rotated and moved files
+2024-12-24 23:46:10,848 - INFO - **************************************************
+2024-12-24 23:46:10,848 - INFO - 
+2024-12-25 00:00:01,965 - INFO - **************************************************
+2024-12-25 00:00:01,966 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-25 00:00:01,966 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-25 00:00:01,966 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-25 00:00:01,967 - INFO - ALBUM_NAME: Mum
+2024-12-25 00:00:01,967 - INFO - PHOTOS_ONLY: True
+2024-12-25 00:00:01,967 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-25 00:00:01,967 - INFO - RECENT_PHOTOS: 100
+2024-12-25 00:00:01,967 - INFO - MAX_MEDIA_STORED: 100
+2024-12-25 00:00:01,968 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-25 00:00:01,968 - INFO - Starting iCloud photo sync...
+2024-12-25 00:00:01,969 - INFO - Deleted 0 files to maintain max media count.
+2024-12-25 00:00:01,969 - INFO - Current media count: 0
+2024-12-25 00:00:01,969 - INFO - Deleted 0 files to maintain max media size.
+2024-12-25 00:00:01,970 - INFO - Current media size: 0.0 GB
+2024-12-25 00:00:01,970 - INFO - Maintained storage limits
+2024-12-25 00:00:57,825 - INFO - iCloud sync completed successfully. 
+2024-12-25 00:00:57,848 - INFO - Deleted 0 files to maintain max media count.
+2024-12-25 00:00:57,848 - INFO - Current media count: 39
+2024-12-25 00:00:57,852 - INFO - Deleted 0 files to maintain max media size.
+2024-12-25 00:00:57,855 - INFO - Current media size: 0.1018733773380518 GB
+2024-12-25 00:00:57,855 - INFO - Maintained storage limits
+2024-12-25 00:00:57,856 - INFO - Finished this media fetch
+2024-12-25 00:00:58,809 - INFO - Deleted 0 files to maintain max media count.
+2024-12-25 00:00:58,809 - INFO - Current media count: 39
+2024-12-25 00:00:58,812 - INFO - Deleted 0 files to maintain max media size.
+2024-12-25 00:00:58,816 - INFO - Current media size: 0.1018733773380518 GB
+2024-12-25 00:00:58,816 - INFO - Rotated and moved files
+2024-12-25 00:00:58,816 - INFO - **************************************************
+2024-12-25 00:00:58,816 - INFO - 
+2024-12-25 00:15:01,708 - INFO - **************************************************
+2024-12-25 00:15:01,709 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-25 00:15:01,709 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-25 00:15:01,709 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-25 00:15:01,709 - INFO - ALBUM_NAME: Mum
+2024-12-25 00:15:01,710 - INFO - PHOTOS_ONLY: True
+2024-12-25 00:15:01,710 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-25 00:15:01,710 - INFO - RECENT_PHOTOS: 100
+2024-12-25 00:15:01,710 - INFO - MAX_MEDIA_STORED: 100
+2024-12-25 00:15:01,710 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-25 00:15:01,711 - INFO - Starting iCloud photo sync...
+2024-12-25 00:15:01,711 - INFO - Deleted 0 files to maintain max media count.
+2024-12-25 00:15:01,712 - INFO - Current media count: 0
+2024-12-25 00:15:01,712 - INFO - Deleted 0 files to maintain max media size.
+2024-12-25 00:15:01,712 - INFO - Current media size: 0.0 GB
+2024-12-25 00:15:01,713 - INFO - Maintained storage limits
+2024-12-25 00:15:54,460 - INFO - iCloud sync completed successfully. 
+2024-12-25 00:15:54,464 - INFO - Deleted 0 files to maintain max media count.
+2024-12-25 00:15:54,464 - INFO - Current media count: 39
+2024-12-25 00:15:54,467 - INFO - Deleted 0 files to maintain max media size.
+2024-12-25 00:15:54,470 - INFO - Current media size: 0.1018733773380518 GB
+2024-12-25 00:15:54,470 - INFO - Maintained storage limits
+2024-12-25 00:15:54,471 - INFO - Finished this media fetch
+2024-12-25 00:15:55,915 - INFO - Deleted 0 files to maintain max media count.
+2024-12-25 00:15:55,916 - INFO - Current media count: 39
+2024-12-25 00:15:55,929 - INFO - Deleted 0 files to maintain max media size.
+2024-12-25 00:15:55,940 - INFO - Current media size: 0.1018733773380518 GB
+2024-12-25 00:15:55,940 - INFO - Rotated and moved files
+2024-12-25 00:15:55,941 - INFO - **************************************************
+2024-12-25 00:15:55,942 - INFO - 
+2024-12-25 00:30:01,885 - INFO - **************************************************
+2024-12-25 00:30:01,886 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-25 00:30:01,886 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-25 00:30:01,886 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-25 00:30:01,886 - INFO - ALBUM_NAME: Mum
+2024-12-25 00:30:01,887 - INFO - PHOTOS_ONLY: True
+2024-12-25 00:30:01,887 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-25 00:30:01,887 - INFO - RECENT_PHOTOS: 100
+2024-12-25 00:30:01,887 - INFO - MAX_MEDIA_STORED: 100
+2024-12-25 00:30:01,887 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-25 00:30:01,888 - INFO - Starting iCloud photo sync...
+2024-12-25 00:30:01,888 - INFO - Deleted 0 files to maintain max media count.
+2024-12-25 00:30:01,889 - INFO - Current media count: 0
+2024-12-25 00:30:01,889 - INFO - Deleted 0 files to maintain max media size.
+2024-12-25 00:30:01,889 - INFO - Current media size: 0.0 GB
+2024-12-25 00:30:01,890 - INFO - Maintained storage limits
+2024-12-25 00:31:00,158 - INFO - iCloud sync completed successfully. 
+2024-12-25 00:31:00,162 - INFO - Deleted 0 files to maintain max media count.
+2024-12-25 00:31:00,163 - INFO - Current media count: 39
+2024-12-25 00:31:00,166 - INFO - Deleted 0 files to maintain max media size.
+2024-12-25 00:31:00,169 - INFO - Current media size: 0.1018733773380518 GB
+2024-12-25 00:31:00,169 - INFO - Maintained storage limits
+2024-12-25 00:31:00,169 - INFO - Finished this media fetch
+2024-12-25 00:31:01,145 - INFO - Deleted 0 files to maintain max media count.
+2024-12-25 00:31:01,145 - INFO - Current media count: 39
+2024-12-25 00:31:01,149 - INFO - Deleted 0 files to maintain max media size.
+2024-12-25 00:31:01,152 - INFO - Current media size: 0.1018733773380518 GB
+2024-12-25 00:31:01,153 - INFO - Rotated and moved files
+2024-12-25 00:31:01,153 - INFO - **************************************************
+2024-12-25 00:31:01,153 - INFO - 
+2024-12-25 00:45:02,060 - INFO - **************************************************
+2024-12-25 00:45:02,061 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-25 00:45:02,061 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-25 00:45:02,061 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-25 00:45:02,061 - INFO - ALBUM_NAME: Mum
+2024-12-25 00:45:02,062 - INFO - PHOTOS_ONLY: True
+2024-12-25 00:45:02,062 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-25 00:45:02,062 - INFO - RECENT_PHOTOS: 100
+2024-12-25 00:45:02,062 - INFO - MAX_MEDIA_STORED: 100
+2024-12-25 00:45:02,062 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-25 00:45:02,063 - INFO - Starting iCloud photo sync...
+2024-12-25 00:45:02,063 - INFO - Deleted 0 files to maintain max media count.
+2024-12-25 00:45:02,064 - INFO - Current media count: 0
+2024-12-25 00:45:02,064 - INFO - Deleted 0 files to maintain max media size.
+2024-12-25 00:45:02,065 - INFO - Current media size: 0.0 GB
+2024-12-25 00:45:02,065 - INFO - Maintained storage limits
+2024-12-25 00:45:52,825 - INFO - iCloud sync completed successfully. 
+2024-12-25 00:45:52,829 - INFO - Deleted 0 files to maintain max media count.
+2024-12-25 00:45:52,829 - INFO - Current media count: 39
+2024-12-25 00:45:52,832 - INFO - Deleted 0 files to maintain max media size.
+2024-12-25 00:45:52,835 - INFO - Current media size: 0.1018733773380518 GB
+2024-12-25 00:45:52,835 - INFO - Maintained storage limits
+2024-12-25 00:45:52,835 - INFO - Finished this media fetch
+2024-12-25 00:45:54,500 - INFO - Deleted 0 files to maintain max media count.
+2024-12-25 00:45:54,501 - INFO - Current media count: 39
+2024-12-25 00:45:54,513 - INFO - Deleted 0 files to maintain max media size.
+2024-12-25 00:45:54,523 - INFO - Current media size: 0.1018733773380518 GB
+2024-12-25 00:45:54,523 - INFO - Rotated and moved files
+2024-12-25 00:45:54,524 - INFO - **************************************************
+2024-12-25 00:45:54,524 - INFO - 
+2024-12-25 01:00:02,616 - INFO - **************************************************
+2024-12-25 01:00:02,904 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-25 01:00:02,908 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-25 01:00:02,909 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-25 01:00:02,909 - INFO - ALBUM_NAME: Mum
+2024-12-25 01:00:02,909 - INFO - PHOTOS_ONLY: True
+2024-12-25 01:00:02,910 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-25 01:00:02,910 - INFO - RECENT_PHOTOS: 200
+2024-12-25 01:00:02,910 - INFO - MAX_MEDIA_STORED: 200
+2024-12-25 01:00:02,911 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-25 01:00:02,911 - INFO - Starting iCloud photo sync...
+2024-12-25 01:00:02,915 - INFO - Deleted 0 files to maintain max media count.
+2024-12-25 01:00:02,915 - INFO - Current media count: 0
+2024-12-25 01:00:02,916 - INFO - Deleted 0 files to maintain max media size.
+2024-12-25 01:00:02,916 - INFO - Current media size: 0.0 GB
+2024-12-25 01:00:02,916 - INFO - Maintained storage limits
+2024-12-25 01:00:53,420 - INFO - iCloud sync completed successfully. 
+2024-12-25 01:00:53,422 - INFO - Deleted 0 files to maintain max media count.
+2024-12-25 01:00:53,423 - INFO - Current media count: 39
+2024-12-25 01:00:53,427 - INFO - Deleted 0 files to maintain max media size.
+2024-12-25 01:00:53,431 - INFO - Current media size: 0.1018733773380518 GB
+2024-12-25 01:00:53,431 - INFO - Maintained storage limits
+2024-12-25 01:00:53,431 - INFO - Finished this media fetch
+2024-12-25 01:00:54,352 - INFO - Deleted 0 files to maintain max media count.
+2024-12-25 01:00:54,353 - INFO - Current media count: 39
+2024-12-25 01:00:54,369 - INFO - Deleted 0 files to maintain max media size.
+2024-12-25 01:00:54,382 - INFO - Current media size: 0.1018733773380518 GB
+2024-12-25 01:00:54,383 - INFO - Rotated and moved files
+2024-12-25 01:00:54,384 - INFO - **************************************************
+2024-12-25 01:00:54,385 - INFO - 
+2024-12-25 13:49:28,745 - INFO - **************************************************
+2024-12-25 13:49:28,746 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-25 13:49:28,746 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-25 13:49:28,746 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-25 13:49:28,747 - INFO - ALBUM_NAME: Mum
+2024-12-25 13:49:28,747 - INFO - PHOTOS_ONLY: True
+2024-12-25 13:49:28,747 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-25 13:49:28,747 - INFO - RECENT_PHOTOS: 200
+2024-12-25 13:49:28,747 - INFO - MAX_MEDIA_STORED: 200
+2024-12-25 13:49:28,748 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-25 13:49:28,748 - INFO - Starting iCloud photo sync...
+2024-12-25 13:49:28,748 - INFO - Deleted 0 files to maintain max media count.
+2024-12-25 13:49:28,749 - INFO - Current media count: 0
+2024-12-25 13:49:28,749 - INFO - Deleted 0 files to maintain max media size.
+2024-12-25 13:49:28,749 - INFO - Current media size: 0.0 GB
+2024-12-25 13:49:28,750 - INFO - Maintained storage limits
+2024-12-25 13:51:01,586 - INFO - **************************************************
+2024-12-25 13:51:01,586 - INFO - Proejct directory: /home/ccc/dev/photo-stream
+2024-12-25 13:51:01,587 - INFO - Logging to file: /home/ccc/dev/photo-stream/log/fetch_media.log
+2024-12-25 13:51:01,587 - INFO - USER_NAME: clemens.christoph@hotmail.com
+2024-12-25 13:51:01,587 - INFO - ALBUM_NAME: Mum
+2024-12-25 13:51:01,587 - INFO - PHOTOS_ONLY: True
+2024-12-25 13:51:01,588 - INFO - SAVE_FOLDER: /home/ccc/dev/photo-stream/media
+2024-12-25 13:51:01,588 - INFO - RECENT_PHOTOS: 200
+2024-12-25 13:51:01,588 - INFO - MAX_MEDIA_STORED: 200
+2024-12-25 13:51:01,588 - INFO - MAX_MEDIA_SIZE_GB: 1
+2024-12-25 13:51:01,588 - INFO - Starting iCloud photo sync...
+2024-12-25 13:51:01,589 - INFO - Deleted 0 files to maintain max media count.
+2024-12-25 13:51:01,589 - INFO - Current media count: 0
+2024-12-25 13:51:01,590 - INFO - Deleted 0 files to maintain max media size.
+2024-12-25 13:51:01,590 - INFO - Current media size: 0.0 GB
+2024-12-25 13:51:01,590 - INFO - Maintained storage limits
+2024-12-25 13:53:11,589 - INFO - iCloud sync completed successfully. 
+2024-12-25 13:53:11,591 - INFO - Deleted 0 files to maintain max media count.
+2024-12-25 13:53:11,591 - INFO - Current media count: 40
+2024-12-25 13:53:11,594 - INFO - Deleted 0 files to maintain max media size.
+2024-12-25 13:53:11,597 - INFO - Current media size: 0.10437915939837694 GB
+2024-12-25 13:53:11,597 - INFO - Maintained storage limits
+2024-12-25 13:53:11,597 - INFO - Finished this media fetch
+2024-12-25 13:53:12,153 - INFO - Deleted 0 files to maintain max media count.
+2024-12-25 13:53:12,154 - INFO - Current media count: 40
+2024-12-25 13:53:12,165 - INFO - Deleted 0 files to maintain max media size.
+2024-12-25 13:53:12,174 - INFO - Current media size: 0.10437915939837694 GB
+2024-12-25 13:53:12,175 - INFO - Rotated and moved files
+2024-12-25 13:53:12,175 - INFO - **************************************************
+2024-12-25 13:53:12,176 - INFO - 

@@ -1,0 +1,29 @@
+Starting build process...
+Starting SSH agent...
+Agent pid 5924
+Adding SSH key...
+Identity added: /home/ccc/.ssh/github (ccc-tiny)
+Navigating to project directory...
+Pulling latest changes from git...
+Already up to date.
+Git pull successful.
+Running PyInstaller...
+411 INFO: PyInstaller: 6.11.1, contrib hooks: 2024.10
+412 INFO: Python: 3.12.3
+418 INFO: Platform: Linux-6.8.0-51-generic-x86_64-with-glibc2.39
+418 INFO: Python environment: /home/ccc/dev/photo-stream/venv
+419 INFO: wrote /home/ccc/dev/photo-stream//spec/fetch_media_executable.spec
+424 INFO: Module search paths (PYTHONPATH):
+['/usr/lib/python312.zip',
+ '/usr/lib/python3.12',
+ '/usr/lib/python3.12/lib-dynload',
+ '/home/ccc/dev/photo-stream/venv/lib/python3.12/site-packages',
+ '/home/ccc/dev/photo-stream/venv/lib/python3.12/site-packages/setuptools/_vendor',
+ '/home/ccc/dev/photo-stream/src']
+1057 INFO: Appending 'binaries' from .spec
+1058 INFO: checking Analysis
+1167 INFO: checking PYZ
+1305 INFO: checking PKG
+1313 INFO: Bootloader /home/ccc/dev/photo-stream/venv/lib/python3.12/site-packages/PyInstaller/bootloader/Linux-64bit-intel/run
+1314 INFO: checking EXE
+Build process completed successfully.

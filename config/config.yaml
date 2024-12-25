@@ -1,0 +1,8 @@
+USER_NAME: "clemens.christoph@hotmail.com"
+ALBUM_NAME: "Mum"      
+SAVE_FOLDER: "media" 
+ROTATED_FOLDER: "media-rotated" 
+RECENT_PHOTOS: 200              
+MAX_MEDIA_STORED: 200            
+MAX_MEDIA_SIZE_GB: 1          
+ROTATE_IMAGES: False              
