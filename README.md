@@ -34,6 +34,8 @@ Take your old laptop and turn it into the perfect gift for your parents:
 
 5. **Customize the settings** in the `config/config.yaml` file to match your preferences and to specify your Apple ID email!
 
+To check if everything is working, you can manually start `./scripts/fetch_media.py` and then `./scripts/run_feh.py`!
+
 ---
 
 ## ⚙️ Customization
