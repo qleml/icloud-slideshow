@@ -171,4 +171,4 @@ cython_debug/
 
 # media downloaded from icloud
 media/
-media-rotated/
+media-temp/

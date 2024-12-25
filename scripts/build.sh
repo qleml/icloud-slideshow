@@ -1,13 +1,13 @@
 #!/bin/bash
 
-ICLOUD_SLIDESHOW_DIR=~/dev/photo-stream/
-OUTPUT_DIR=$ICLOUD_SLIDESHOW_DIR/dist/
-BUILD_DIR=$ICLOUD_SLIDESHOW_DIR/build/
-SPEC_DIR=$ICLOUD_SLIDESHOW_DIR/spec/
+ICLOUD_SLIDESHOW_PATH=~/dev/photo-stream/
+OUTPUT_DIR=$ICLOUD_SLIDESHOW_PATH/dist/
+BUILD_DIR=$ICLOUD_SLIDESHOW_PATH/build/
+SPEC_DIR=$ICLOUD_SLIDESHOW_PATH/spec/
 OUTPUT_NAME=fetch_media_executable
-LOG_FILE=$ICLOUD_SLIDESHOW_DIR/log/build_log.log
+LOG_FILE=$ICLOUD_SLIDESHOW_PATH/log/build_log.log
 
-source $ICLOUD_SLIDESHOW_DIR/venv/bin/activate
+source $ICLOUD_SLIDESHOW_PATH/venv/bin/activate
 
 # Create log directory if it doesn't exist
 mkdir -p $(dirname $LOG_FILE)
@@ -24,7 +24,7 @@ echo "Adding SSH key..."
 ssh-add ~/.ssh/github
 
 echo "Navigating to project directory..."
-cd $ICLOUD_SLIDESHOW_DIR
+cd $ICLOUD_SLIDESHOW_PATH
 
 echo "Pulling latest changes from git..."
 if git pull; then
@@ -36,7 +36,7 @@ fi
 
 echo "Running PyInstaller..."
 PYTHON_LIB=$(python3 -c 'import sysconfig; print(sysconfig.get_config_var("LIBDIR"))')/libpython3.12.so
-if pyinstaller --onefile --add-binary "$PYTHON_LIB:." --distpath $OUTPUT_DIR --workpath $BUILD_DIR --specpath $SPEC_DIR --name $OUTPUT_NAME $ICLOUD_SLIDESHOW_DIR/src/fetch_media.py; then
+if pyinstaller --onefile --add-binary "$PYTHON_LIB:." --distpath $OUTPUT_DIR --workpath $BUILD_DIR --specpath $SPEC_DIR --name $OUTPUT_NAME $ICLOUD_SLIDESHOW_PATH/src/fetch_media.py; then
     echo "Build process completed successfully."
 else
     echo "Build process failed."

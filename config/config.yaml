@@ -1,8 +1,8 @@
-USER_NAME: "clemens.christoph@hotmail.com"
-ALBUM_NAME: "Mum"      
-SAVE_FOLDER: "media" 
-ROTATED_FOLDER: "media-rotated" 
+USER_NAME: "YOUR_APPLE_ID_EMAIL"
+ALBUM_NAME: "All Photos"      
+TEMP_FOLDER: "media-temp" 
+MEDIA_FOLDER: "media" 
 RECENT_PHOTOS: 200              
-MAX_MEDIA_STORED: 200            
-MAX_MEDIA_SIZE_GB: 1          
-ROTATE_IMAGES: False              
+MAX_MEDIA_STORED: 500            
+MAX_MEDIA_SIZE_GB: 1     
+SLIDESHOW_INTERVAL: 7     

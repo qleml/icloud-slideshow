@@ -12,11 +12,11 @@ from PIL import Image, UnidentifiedImageError
 
 # Parse command-line arguments
 parser = argparse.ArgumentParser(description="Sync iCloud photos and maintain storage limits.")
-parser.add_argument("ICLOUD_SLIDESHOW_DIR", type=str, help="The project directory path.")
+parser.add_argument("ICLOUD_SLIDESHOW_PATH", type=str, help="The project directory path.")
 args = parser.parse_args()
 
-ICLOUD_SLIDESHOW_DIR = Path(args.ICLOUD_SLIDESHOW_DIR).resolve()
-CONFIG_PATH = ICLOUD_SLIDESHOW_DIR / "config/config.yaml"
+ICLOUD_SLIDESHOW_PATH = Path(args.ICLOUD_SLIDESHOW_PATH).resolve()
+CONFIG_PATH = ICLOUD_SLIDESHOW_PATH / "config/config.yaml"
 
 # Load configuration from config.yaml
 with open(CONFIG_PATH, "r") as config_file:
@@ -25,16 +25,16 @@ with open(CONFIG_PATH, "r") as config_file:
 USER_NAME = config.get("USER_NAME", "clemens.christoph@hotmail.com")
 ALBUM_NAME = config.get("ALBUM_NAME", "All Photos")
 PHOTOS_ONLY = config.get("PHOTOS_ONLY", True)
-SAVE_FOLDER = Path(ICLOUD_SLIDESHOW_DIR, config.get("SAVE_FOLDER", "media")).resolve()
-ROTATED_FOLDER = Path(ICLOUD_SLIDESHOW_DIR, config.get("ROTATED_FOLDER", "media-rotated")).resolve()
+TEMP_FOLDER = Path(ICLOUD_SLIDESHOW_PATH, config.get("TEMP_FOLDER", "media")).resolve()
+MEDIA_FOLDER = Path(ICLOUD_SLIDESHOW_PATH, config.get("MEDIA_FOLDER", "media-rotated")).resolve()
 RECENT_PHOTOS = config.get("RECENT_PHOTOS", 50)
 MAX_MEDIA_STORED = config.get("MAX_MEDIA_STORED", 1000)
 MAX_MEDIA_SIZE_GB = config.get("MAX_MEDIA_SIZE_GB", 10)
-LOG_FILE_PATH = Path(ICLOUD_SLIDESHOW_DIR, "log", "fetch_media.log").resolve()
+LOG_FILE_PATH = Path(ICLOUD_SLIDESHOW_PATH, "log", "fetch_media.log").resolve()
 ROTATE_IMAGES = config.get("ROTATE_IMAGES", False)
 
-SAVE_FOLDER.mkdir(parents=True, exist_ok=True)
-ROTATED_FOLDER.mkdir(parents=True, exist_ok=True)
+TEMP_FOLDER.mkdir(parents=True, exist_ok=True)
+MEDIA_FOLDER.mkdir(parents=True, exist_ok=True)
 
 log_dir = os.path.dirname(LOG_FILE_PATH)
 if not os.path.exists(log_dir):
@@ -52,13 +52,13 @@ logger.setLevel(logging.INFO)
 
 logger.info(f"*"*50)
 
-logger.info("Proejct directory: " + str(ICLOUD_SLIDESHOW_DIR))
+logger.info("Proejct directory: " + str(ICLOUD_SLIDESHOW_PATH))
 logger.info("Logging to file: " + str(LOG_FILE_PATH))
 
 logger.info(f"USER_NAME: {USER_NAME}")
 logger.info(f"ALBUM_NAME: {ALBUM_NAME}")
 logger.info(f"PHOTOS_ONLY: {PHOTOS_ONLY}")
-logger.info(f"SAVE_FOLDER: {SAVE_FOLDER}")
+logger.info(f"TEMP_FOLDER: {TEMP_FOLDER}")
 logger.info(f"RECENT_PHOTOS: {RECENT_PHOTOS}")
 logger.info(f"MAX_MEDIA_STORED: {MAX_MEDIA_STORED}")
 logger.info(f"MAX_MEDIA_SIZE_GB: {MAX_MEDIA_SIZE_GB}")
@@ -94,23 +94,12 @@ def maintain_storage_limits(folder):
     logger.info(f"Deleted {popped_count} files to maintain max media size.")
     logger.info(f"Current media size: {get_folder_size_in_gb(folder)} GB")
     
-def rotate_and_move_files():
-    # Rotate all photo files in the original folder by 180 degrees
-    if ROTATE_IMAGES:
-        for file in SAVE_FOLDER.glob('*'):
-            if file.is_file():
-                try:
-                    subprocess.run(["mogrify", "-rotate", "180", str(file)], check=True)
-                except subprocess.CalledProcessError as e:
-                    logger.error(f"Error rotating file {file}: {e}")
-                except Exception as e:
-                    logger.error(f"Unexpected error rotating file {file}: {e}")
-        
+def move_files():  
     # Move all rotated files to the rotated folder
-    for file in SAVE_FOLDER.glob('*'):
+    for file in TEMP_FOLDER.glob('*'):
         if file.is_file():
             try:
-                file.rename(ROTATED_FOLDER / file.name)
+                file.rename(MEDIA_FOLDER / file.name)
             except Exception as e:
                 logger.error(f"Error moving file {file} to rotated folder: {e}")
 
@@ -118,13 +107,13 @@ try:
     logger.info("Starting iCloud photo sync...")
 
     # First maintain storage limits before syncing
-    maintain_storage_limits(SAVE_FOLDER)  # Assume this is defined elsewhere
+    maintain_storage_limits(TEMP_FOLDER)  # Assume this is defined elsewhere
     logger.info("Maintained storage limits")
 
     result = subprocess.run([
         "icloudpd",
         "--username", str(USER_NAME),
-        "--directory", str(SAVE_FOLDER),
+        "--directory", str(TEMP_FOLDER),
         "--album", ALBUM_NAME,
         "--log-level", "error",
         "--recent", str(RECENT_PHOTOS),
@@ -164,13 +153,13 @@ except Exception as e:
     logger.error(f"Something went wrong: {str(e)}")
 
 # Ensure storage limits are maintained after syncing
-maintain_storage_limits(SAVE_FOLDER)
+maintain_storage_limits(TEMP_FOLDER)
 logger.info("Maintained storage limits")
 
 logger.info("Finished this media fetch")
 
-rotate_and_move_files()
-maintain_storage_limits(ROTATED_FOLDER)
+move_files()
+maintain_storage_limits(MEDIA_FOLDER)
 
 logger.info("Rotated and moved files")
     

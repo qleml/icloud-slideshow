@@ -1,8 +1,2 @@
-altgraph==0.17.4
 icloudpd==1.25.0
-packaging==24.2
-pillow==11.0.0
-pyinstaller==6.11.1
-pyinstaller-hooks-contrib==2024.10
 PyYAML==6.0.2
-setuptools==75.6.0
