@@ -23,12 +23,13 @@ if ! command_exists python3-venv; then
     sudo apt-get install -y python3-venv
 fi
 
-# Create a virtual environment
+# Create a virtual environment only if it doesn't exist
 if [ ! -d "venv" ]; then
     python3 -m venv venv
     echo "Virtual environment created."
+else
+    echo "Virtual environment already exists. Skipping creation."
 fi
-
 # Activate the virtual environment
 source venv/bin/activate
 
@@ -45,10 +46,18 @@ fi
 # Deactivate the virtual environment
 deactivate
 
-# Create cron jobs
-(crontab -l 2>/dev/null; echo "0 3 * * * /bin/bash $ICLOUD_SLIDESHOW_PATH/scripts/fetch_media.sh") | crontab -
-(crontab -l 2>/dev/null; echo "@reboot /bin/bash -c 'sleep 10; $ICLOUD_SLIDESHOW_PATH/scripts/run_feh'") | crontab -
 
-echo "Cron jobs created successfully."
+# Define the cron jobs
+CRON_JOB_FETCH="0 3 * * * /bin/bash $ICLOUD_SLIDESHOW_PATH/scripts/fetch_media.sh"
+CRON_JOB_REBOOT="@reboot /bin/bash -c 'sleep 10; $ICLOUD_SLIDESHOW_PATH/scripts/run_feh'"
+
+# Add cron jobs only if they do not already exist
+# Fetch job
+(crontab -l 2>/dev/null | grep -qF "$CRON_JOB_FETCH") || (crontab -l 2>/dev/null; echo "$CRON_JOB_FETCH") | crontab -
+
+# Reboot job
+(crontab -l 2>/dev/null | grep -qF "$CRON_JOB_REBOOT") || (crontab -l 2>/dev/null; echo "$CRON_JOB_REBOOT") | crontab -
+
+echo "Cron jobs checked and added (if not already present)."
 
 echo "Setup completed successfully."

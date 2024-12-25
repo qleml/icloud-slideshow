@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# Check if ICLOUD_SLIDESHOW_PATH is set
+if [ -z "$ICLOUD_SLIDESHOW_PATH" ]; then
+    echo "Error: ICLOUD_SLIDESHOW_PATH is not set."
+    exit 1
+fi
+
+source $ICLOUD_SLIDESHOW_PATH/venv/bin/activate
+
 # Check if icloudpd is installed
 if ! command -v icloudpd &> /dev/null; then
     echo "icloudpd is not installed. Please install it first."
