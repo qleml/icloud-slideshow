@@ -34,7 +34,11 @@ Take your old laptop and turn it into the perfect gift for your parents:
 
 5. **Customize the settings** in the `config/config.yaml` file to match your preferences and to specify your Apple ID email!
 
-To check if everything is working, you can manually start `./scripts/fetch_media.py` and then `./scripts/run_feh.py`!
+To check if everything is working, you can manually start 
+  ```bash
+   ./scripts/fetch_media.sh
+   ./scripts/run_feh.sh
+   ```
 
 ---
 
@@ -62,7 +66,7 @@ Then modify the schedule:
 
 To adjust the slideshow speed, open the `scripts/run_feh.sh` file and modify the interval `X`:
 ```bash
-feh --slideshow-delay 7 --recursive -F $ICLOUD_SLIDESHOW_DIR/media-rotated/
+feh --slideshow-delay 7 --recursive -F $ICLOUD_SLIDESHOW_DIR media
 ```
 
 ---
