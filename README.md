@@ -8,7 +8,7 @@ Take your old laptop and turn it into the perfect gift for your parents:
 * Runs the slideshow automatically on reboot 
 * Shows the x most recent photos and maintains storage limits 
 
-## Get it running in 5 simple steps (~1 hour) ⏳
+## Get it running in 5 simple steps
 
 1. **Install an Ubuntu version** on your old laptop. For older laptops with resource constraints, I would recommend Lubuntu: [Download Lubuntu](https://lubuntu.me/downloads/).
 2. Once running, in the folder of your choice, clone this repo:
