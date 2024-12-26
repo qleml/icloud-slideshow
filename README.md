@@ -80,6 +80,12 @@ The functionality is still limited and could be improved. Here are some things t
 - **Re-authentication**: After 2 months, you need to manually re-authenticate using the `./scripts/authenticate.sh` script. This can be solved by using an authentication system through a secure messenger service, similar to how [docker-icloudpd](https://github.com/boredazfcuk/docker-icloudpd) does it.
 - **Videos**: The script currently only fetches photos, not videos.
 
----
+- ## Uninstall
+Run
+```bash
+./script/uninstall.sh 
+```
+to remove the cron jobs, the venv as well as the ```ICLOUD_SLIDESHOW_DIR``` in the ```.bashrc``` file
 
+---
 Enjoy the slideshow! 🎄✨
