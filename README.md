@@ -64,9 +64,9 @@ Then modify the schedule:
 
 #### Change the slideshow interval 
 
-To adjust the slideshow speed, open the `scripts/run_feh.sh` file and modify the interval `X`:
+To adjust the slideshow speed, open the `scripts/run_feh.sh` file and modify the interval `X` seconds:
 ```bash
-feh --slideshow-delay 7 --recursive -F $ICLOUD_SLIDESHOW_DIR media
+feh --slideshow-delay X --recursive -F $ICLOUD_SLIDESHOW_DIR media
 ```
 
 ---
@@ -80,7 +80,7 @@ The functionality is still limited and could be improved. Here are some things t
 - **Re-authentication**: After 2 months, you need to manually re-authenticate using the `./scripts/authenticate.sh` script. This can be solved by using an authentication system through a secure messenger service, similar to how [docker-icloudpd](https://github.com/boredazfcuk/docker-icloudpd) does it.
 - **Videos**: The script currently only fetches photos, not videos.
 
-- ## Uninstall
+## 🚫 Uninstall
 Run
 ```bash
 ./script/uninstall.sh 
