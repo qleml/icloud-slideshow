@@ -9,7 +9,7 @@ echo "Removing cron jobs..."
 
 # Remove the environment variable from ~/.bashrc
 echo "Removing environment variable from ~/.bashrc..."
-sed -i "/export ICLOUD_SLIDESHOW_PATH=$ICLOUD_SLIDESHOW_PATH/d" ~/.bashrc
+sed -i '/export ICLOUD_SLIDESHOW_PATH=/d' ~/.bashrc
 
 # Delete the virtual environment folder
 echo "Deleting the virtual environment folder..."
